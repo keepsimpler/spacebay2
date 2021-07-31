@@ -1,0 +1,55 @@
+.make-default-payment-modal {
+    width: 600px;
+}
+
+.make-default-payment-modal-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 50px;
+    border-bottom: 1.2px solid #EFEBEB;
+}
+
+.make-default-payment-modal-prompt {
+    padding: 30px 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.make-default-payment-modal-footer {
+    padding: 15px;
+    border-top: 1px solid #EFEBEB;
+}
+
+.make-default-payment-modal-btn-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.make-default-payment-btn {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.make-default-payment-btn-confirm {
+    color: #42C655;
+    border: 1px solid #42C655;
+    background: #FFFFFF;
+}
+
+.make-default-payment-btn-confirm:active {
+    background: #FFFFFF;
+}
+
+.make-default-payment-confirmation-prompt {
+    border-bottom: 1.2px solid #EFEBEB;
+    padding: 30px 50px;
+}
+
+.make-default-payment-confirmation-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}

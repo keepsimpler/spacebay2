@@ -1,0 +1,15 @@
+.ss-create-new-booking-panel .ss-account-select {
+    width: 100%;
+}
+
+.ss-create-new-booking-panel .ss-account-select input {
+    width: 100%;
+}
+
+.ss-create-new-booking-panel .hs-field {
+    margin-bottom: 20px;
+}
+
+.ss-billed-booking-info {
+    margin-top: 20px;
+}

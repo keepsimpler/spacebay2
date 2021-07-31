@@ -1,0 +1,487 @@
+/*
+    *************** Main Header *******************
+*/
+
+@media all  and (max-width: 799px) {
+    #ssLanding.ss-main > header {
+        background-image: url(app-images/landing_trucks_narrow_small.jpg);
+    }
+    #landing-adding-partners-panel {
+        background-image: url(app-images/add_partners_trucks2_narrow_small_left.jpg);
+        background-position: top !important;
+    }
+}
+
+@media all and (min-width: 800px) {
+    #ssLanding.ss-main > header {
+        background-image: url(app-images/landing_trucks_wide_medium.jpg);
+    }
+    #landing-adding-partners-panel {
+        background-image: url(app-images/add_partners_trucks2.jpg);
+    }
+}
+
+#ssLanding.ss-main > header {
+    background-position: top;
+    height: 650px;
+    width: 100%;
+}
+
+#ssLanding .page-title {
+    padding-top: 80px;
+    padding-bottom: 15px;
+    color: #324559;
+    line-height: 48px;
+}
+
+#ssLanding.ss-main > header > h3 {
+    margin: 0px auto;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #5C6771;
+    line-height: 23px;
+}
+
+/*
+    *************** Search Bar *******************
+*/
+
+form#landingInlineSearchForm {
+    width: 730px;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 32.5px;
+    -moz-border-radius: 32.5px;
+    border-radius: 32.5px;
+    box-shadow: 0px 1px 24px 0 rgba(247, 144, 25, 0.1);
+    background-color: #ffffff;
+    border: solid 1px #f2ebd3;
+}
+form#landingInlineSearchForm.form-up{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+form#landingInlineSearchForm.form-up ~ div{
+    border-top:1px solid #BAB7B7;
+    padding-top: 25px;
+    width:100%;
+    float:left;
+    overflow: hidden;
+}
+form#landingInlineSearchForm > div {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+form#landingInlineSearchForm div.trigger-click {
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+#searchSearchLocationNameClone {
+    border:0;
+    margin-left:20px;
+    min-width:60%;
+}
+#searchClone{
+    margin-left: auto;
+    margin-right:20px;
+}
+#landingSearchLocationName {
+    width: 200px;
+    outline: none;
+}
+
+#landingSearchStartDate {
+    width: 110px;
+}
+
+#landingSearchEndDate {
+    width: 110px;
+}
+
+#landingSearchNumberOfSpaces {
+    width: 76px;
+}
+
+form#landingInlineSearchForm button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 8px 30px;
+    border-radius: 21px;
+    background-color: #f79019;
+    color: #FFFFFF;
+    letter-spacing: .3px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media all  and (max-width: 800px) {
+    form#landingInlineSearchForm {
+        /*display: none !important;*/
+        padding: 20px 30px;
+        width: 90%;
+        min-width: 280px;
+        margin-top: 26px;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+        border: none;
+    }
+
+    form#landingInlineSearchForm > div {
+        display: block;
+        overflow: hidden;
+
+    }
+
+    form#landingInlineSearchForm > div input {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    form#landingInlineSearchForm > div div {
+        width: 100%;
+        float: left;
+    }
+
+    form#landingInlineSearchForm div.trigger-click {
+        margin-left: 0;
+    }
+
+    form#landingInlineSearchForm button {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+/*
+    *************** Benefits Panel *****************
+ */
+
+#benefits-panel {
+    width: 100%;
+    padding: 60px 180px;
+}
+
+#benefits-panel > .benefits-panel-item {
+    text-align: center;
+}
+
+.benefits-panel-item-label {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #324559;
+}
+
+.benefits-panel-item-text {
+    font-size: 15px;
+    font-weight: 500;
+    width: 62%;
+    margin: 8px auto auto;
+    color: #5C6771;
+
+}
+
+#benefits-panel img {
+    height: 61.4px;
+}
+
+#benefits-panel-map-icon {
+    width: 137px;
+    height: 75px;
+    object-fit: contain;
+}
+
+@media all and (max-width: 999px) {
+    #benefits-panel {
+        padding: 50px 90px 0 90px;
+    }
+
+    .benefits-panel-item {
+        margin-bottom: 50px;
+    }
+
+    .benefits-panel-item-text {
+        width: 80%;
+    }
+}
+
+@media all  and (max-width: 500px) {
+    #benefits-panel {
+        padding: 50px 5% 0 5%;
+    }
+}
+
+/*
+     ************** Featured Suppliers Panel *******************
+ */
+
+#featured-supplier-panel {
+    height: 250px;
+    background-color: #f6f6f6;
+}
+
+#featured-supplier-title {
+    margin-left: 150px;
+
+    font-size: 10px;
+    font-weight: 600;
+    text-align: left;
+    color: #889296;
+}
+
+#featured-supplier-list {
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.featured-supplier-card {
+    flex-grow: 1;
+}
+
+.featured-supplier-image-container {
+    width: 215px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: solid 1px #e2e2e2;
+}
+
+.featured-supplier-image {
+    width: 175px;
+    object-fit: contain;
+}
+
+.featured-supplier-card-title {
+    margin-top: 15px;
+
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    color: #313c41;
+}
+
+.featured-supplier-card-listings {
+    opacity: 0.77;
+
+    font-size: 13px;
+    text-align: left;
+    color: rgba(49, 60, 65, 0.77);
+}
+
+/*}*/
+
+/*
+    *************** Adding Partners ****************************
+ */
+
+/*@media all and (min-width: 1000px) {*/
+
+#landing-adding-partners-panel {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 800px;
+    padding-top: 50px;
+}
+
+#landing-adding-partners-panel-text {
+    margin-top: 30px;
+    width: 80%;
+    color: #5C6771;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+#landing-adding-partners-panel-text-block {
+    width: 440px;
+    margin-left: 90px;
+    margin-top: 30px;
+
+}
+
+#landing-adding-partners-panel-text-block .section-title {
+    color: #324559;
+    font-size: 30px;
+    font-family: SofiaPro;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+@media all  and (max-width: 550px) {
+    #landing-adding-partners-panel {
+        padding-bottom: 200px;
+        height:auto;
+        width:100%;
+        background-size: cover;
+    }
+
+    #landing-adding-partners-panel-text-block {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
+/*
+    *************** Quote panel *********************************
+ */
+/*@media all and (min-width: 1000px) {*/
+
+#landing-quote-panel {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+#landing-quote-panel-person {
+    width: 100%;
+
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 5.83;
+    color: #313c41;
+}
+
+#landing-quote-panel-text {
+    padding-top: 70px;
+
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.59;
+    text-align: center;
+    color: #313c41;
+}
+
+/*}*/
+
+/*
+     ************** Footer **************************************
+ */
+
+@media all and (min-width: 1000px) {
+    #aboutUsFooterSeparator {
+        margin-top: 153px;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 999px) {
+    #aboutUsFooterSeparator {
+        margin-top: 153px;
+    }
+}
+
+@media all and (max-width: 599px) {
+    #aboutUsFooterSeparator {
+        margin-top: 48px;
+    }
+}
+
+.ss-main > section > footer {
+    width: 100%;
+}
+
+.ss-main > section > footer button {
+    width: 370px;
+    height: 55px;
+}
+
+@media all and (min-width: 1400px) {
+
+    .ss-main > section > footer {
+        height: 150px;
+        position: relative;
+    }
+
+    .ss-main > section > footer > h4 {
+        width: 700px;
+        position: absolute;
+        top: 30px;
+        left: 0;
+    }
+
+    .ss-main > section > footer button {
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+
+}
+
+@media all and (max-width: 1399px) and (min-width: 750px) {
+
+    .ss-main > section > footer > h4 {
+        width: 700px;
+        margin-top: 30px;
+    }
+
+    .ss-main > section > footer button {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media all and (min-width: 420px) and (max-width: 749px) {
+
+    .ss-main > section > footer > h4 {
+        margin-top: 30px;
+    }
+
+    .ss-main > section > footer button {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+}
+@media all  and (max-width: 550px) {
+    #landing-adding-partners-panel {
+        padding-bottom: 200px;
+        height:auto;
+        width:100%;
+        background-size: cover;
+    }
+
+    #landing-adding-partners-panel-text-block {
+        margin-left: 5%;
+        width: 90%;
+    }
+    #ssLanding .page-title{
+        padding-top: 45px;
+    }
+     .ss-main header h1.page-title {
+        font-size: 32px;
+        max-width: 275px;
+    }
+    #ssLanding.ss-main > header > h3{
+        font-size:16px;
+    }
+}
+
+@media all and (max-width: 419px) {
+    .ss-main > section > footer button {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 45px;
+    }
+
+}

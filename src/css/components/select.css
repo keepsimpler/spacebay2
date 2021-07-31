@@ -1,0 +1,90 @@
+.ss-select {
+    position: relative;
+}
+
+.ss-select input {
+    cursor: pointer;
+    margin: 0 0 0 25px;
+    padding: 0;
+}
+
+.ss-select-text {
+    width: 100%;
+}
+
+.ss-select-caret {
+    background-image: url(https://s3-us-west-1.amazonaws.com/securspace-files/app-images/caret-down.svg);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 5px;
+}
+
+.ss-select-item {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ss-select-item:hover {
+    font-weight: 700;
+}
+
+.ss-select-options-hidden {
+    visibility: hidden;
+    position: absolute;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.ss-select-item img {
+    width: 16px;
+    margin-left: -20px;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+.ss-select-options-visible {
+    visibility: visible;
+    position: absolute;
+    width: calc(100% + 20px);
+    top: 27px;
+    left: 23px;
+    z-index: 9999;
+    background-color: #f2f2f2;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px #dddddd;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    max-height: 300px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.ss-select-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+/*Added for interactive search in select*/
+.with-search .ss-select-options-visible{
+    top:initial;
+    left:0;
+    width:100%;
+}
+.with-search li.sel-item{
+    background: #e6f2ff;
+}
+.with-search li.ss-select-item{
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.with-search ul{
+    margin-bottom:0;
+}

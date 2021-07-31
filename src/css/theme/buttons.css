@@ -1,0 +1,237 @@
+#ssApp button {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media all and (max-width: 599px) {
+    button {
+        font-size: 14px;
+    }
+}
+
+.ss-button-primary {
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    border-radius: 35px !important;
+    font-weight: 500;
+    background-color: #f79019;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    min-width: auto;
+}
+
+.ss-button-primary.reverse {
+    background-color: #ffffff;
+    border: 1px solid #f79019;
+    margin-bottom: 16px;
+    color: #F29A2C;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+}
+
+.ss-button-primary:active {
+    background-color: #D77119;
+    box-shadow: 0 1px #777777;
+    transform: translateY(1px);
+}
+
+/*
+    ************ Danger Primary Button ************
+ */
+.ss-button-danger-primary {
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    border-radius: 35px !important;
+    font-weight: 500;
+    background-color: #d74747;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    min-width: auto;
+}
+
+.ss-button-danger-primary:active {
+    background-color: #bc3e3e;
+    box-shadow: 0 1px #777777;
+    transform: translateY(1px);
+}
+
+/*
+    ************ Secondary Button ************
+ */
+.ss-button-secondary {
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    border-radius: 35px !important;
+    font-weight: 500;
+    background-color: #ffffff;
+    text-align: center;
+    color: #f79019;
+    border: solid 1px #f79019;
+    padding: 10px 30px;
+    min-width: auto;
+}
+
+.ss-button-secondary:active {
+    background-color: #f2f2f2;
+    box-shadow: 0 1px #777777;
+    transform: translateY(1px);
+}
+
+/*
+    ************ Info Button ************
+ */
+.ss-button-info {
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+    font-weight: 500;
+    background-color: #dddddd;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+}
+
+.ss-button-info:active {
+    background-color: #C9C9C9;
+    box-shadow: 0 1px #777777;
+    transform: translateY(1px);
+}
+
+/*
+    ************ Secondary Micro Button ************
+ */
+button.ss-micro-button-secondary {
+    height: 22px;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+    font-weight: 900;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.8;
+    color: #f79019;
+    border: solid 2px #f79019;
+}
+
+/*
+    ************ Danger Button ************
+ */
+.ss-button-danger {
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    border-radius: 35px !important;
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 9px 30px;
+    text-align: center;
+    color: #d74747;
+    border: solid 1px #d74747;
+}
+
+.ss-button-danger:active {
+    background-color: #f2f2f2;
+    box-shadow: 0 1px #777777;
+    transform: translateY(1px);
+}
+
+/*
+    ************ Primary Button Group ************
+ */
+.ss-button-primary-left {
+    -webkit-border-radius: 5px 0 0 5px !important;
+    -moz-border-radius: 5px 0 0 5px !important;
+    border-radius: 5px 0 0 5px !important;
+    font-weight: 700 !important;
+    background-color: #f79019;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+.ss-button-primary-middle {
+    -webkit-border-radius: 0 0 0 0 !important;
+    -moz-border-radius: 0 0 0 0 !important;
+    border-radius: 0 0 0 0 !important;
+    font-weight: 700 !important;
+    background-color: #f79019;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+.ss-button-primary-right {
+    -webkit-border-radius: 0 5px 5px 0 !important;
+    -moz-border-radius: 0 5px 5px 0 !important;
+    border-radius: 0 5px 5px 0 !important;
+    font-weight: 700 !important;
+    background-color: #f79019;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+.ss-button-primary-selected {
+    background-color: #f79019;
+    border: solid 1px #f79019;
+    color: #ffffff;
+}
+
+.ss-button-primary-deselected {
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    color: #555555;
+}
+
+.ss-dialog-button {
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.ss-button-primary-small {
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    border-radius: 35px !important;
+    font-weight: 500;
+    background-color: #f79019;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: -13px;
+}
+
+.ss-button-primary-modal-form {
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    border-radius: 35px !important;
+    font-weight: 500;
+    background-color: #f79019;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #f79019;
+    min-width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.ss-button-primary-modal-form.reverse {
+    background-color: #ffffff;
+    color: #f79019;
+    border: none;
+}
+
+.ss-button-primary-modal-form:first-child {
+    margin-right: 0;
+}

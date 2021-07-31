@@ -1,0 +1,99 @@
+@media all and (min-width: 1300px) {
+
+    #ssManagePaymentMethodsContainer {
+        width: 700px;
+        padding-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media all and (max-width: 1299px) {
+
+    #ssManagePaymentMethodsContainer {
+        padding-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+#ss-add-payment-method-form,
+#ss-verify-payment-method-form,
+#ss-create-payout-form {
+    padding: 19px 20px 20px 20px;
+}
+
+#ss-add-payment-method-form h2,
+#ss-verify-payment-method-form h2,
+#ss-create-payout-form h2 {
+    font-size: 30px;
+    letter-spacing: normal;
+    line-height: 1.1;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#ss-add-payment-method-form h3,
+#ss-verify-payment-method-form h3,
+#ss-create-payout-form h3 {
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: 1.1;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ss-add-payment-method-form h4,
+#ss-verify-payment-method-form h4,
+#ss-create-payout-form h4 {
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: 1.1;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ss-verification-still-required p {
+    
+    letter-spacing: normal;
+    line-height: 1;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    margin: 0 0 10px;
+}
+
+#ss-add-payment-method-form hr,
+#ss-verify-payment-method-form hr,
+#ss-create-payout-form hr {
+    height: 1px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+#ss-add-payment-method-form span,
+#ss-verify-payment-method-form span,
+#ss-create-payout-form span {
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #555555;
+    text-align: left;
+}
+
+#ssManagePaymentMethodsContainer .ss-error{
+    position: relative;
+    top: 20px;
+    margin-left: 5px;
+    margin-top: 0;
+}

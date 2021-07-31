@@ -1,0 +1,14 @@
+.use-location-restrictions-container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.use-location-restrictions-prompt-text {
+    font-weight: bold;
+}
+
+.use-location-restrictions-input-container {
+    padding-left: 10px;
+}

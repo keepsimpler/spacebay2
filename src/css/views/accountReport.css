@@ -1,0 +1,242 @@
+.report-container > div:nth-child(odd) {
+    /*background-color: #f2f2f2;*/
+}
+
+.heading-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 2px 0 0 8px;
+}
+
+.report-row {
+    display: flex;
+    padding: 6px 13px;
+    margin-bottom: 15px;
+    border: 1px solid #E7E7E7;
+    background-color: #FDFDFD;
+
+}
+
+.report-row-data > div {
+    padding: 6px 0;
+
+}
+.report-row-data {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    /*flex: 1;*/
+}
+
+.report-label {
+    padding-left: 32px;
+    padding-top: 0;
+}
+
+.report-label label {
+    color: #5D6B7A;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.location.report-label {
+    padding-left: 32px;
+    background: url('app-images/admin/list@2x.png') no-repeat;
+    background-position: 3px center;
+    background-size: 20px 24px;
+    border-radius: 0 !important;
+}
+.amount.report-label {
+    padding-left: 32px;
+    background: url('app-images/admin/amount@2x.png') no-repeat;
+    background-position: 3px center;
+    background-size: 20px 24px;
+    border-radius: 0 !important;
+}
+.start.report-label ,
+.end.report-label ,
+.service.dates.report-label {
+    padding-left: 36px;
+    background: url('app-images/admin/group@2x.png') no-repeat;
+    background-position: 3px center;
+    background-size: 26px 26px;
+    border-radius: 0 !important;
+}
+.report-value {
+    overflow: hidden;
+    color: #324559;
+    font-size: 12px;
+    font-weight: bold;
+    white-space:pre-wrap;
+}
+
+.report-row-action {
+    justify-content: flex-end;
+    flex-grow: 1;
+    display: flex;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.ss-load-more-records {
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.ss-load-more-records-link {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.ss-group-summary-fields > div span:first-child{
+    font-weight: bold;
+}
+
+@media all and (min-width: 1000px) {
+    .ss-record-count {
+        font-size: 18px;
+        color: #999999;
+        margin-left: 10px;
+    }
+
+    .reports_title {
+        width: 50%;
+        float: left;
+    }
+
+    .reports_title h3{
+        color: #7C8793;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .reports_title .ss-record-count{
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .to_excel_container {
+        width: 50%;
+        float: left;
+        text-align: right;
+    }
+
+    .to_excel_container a{
+        padding-right: 20px;
+        cursor: pointer;
+    }
+}
+
+@media all and (max-width: 999px) {
+    .ss-record-count {
+        font-size: 18px;
+        color: #999999;
+        margin-top: 20px;
+    }
+
+    .reports_title {
+        width: 50%;
+        float: left;
+        /*height: 50px;*/
+        margin-top: 3px;
+    }
+
+    .reports_title h3{
+        color: #7C8793;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 300px;
+    }
+
+    .reports_title .ss-record-count{
+        font-size: 14px;
+        font-weight: normal;
+        display: block;
+    }
+
+    .to_excel_container {
+        width: 50%;
+        float: left;
+        text-align: right;
+    }
+
+    .to_excel_container a{
+        cursor: pointer;
+    }
+}
+
+.ss-cash-icon {
+    border: 0;
+    color: #5D6B7A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 0 0 0 27px;
+    background: url('app-images/admin/amount@2x.png') no-repeat 3px center;
+    background-size: 18px 18px;
+    border-radius: 0 !important;
+}
+
+.ss-excel-icon {
+    border: 0;
+    color: #5D6B7A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 0 0 0 27px;
+    background: url('app-images/admin/export_excel@2x.png') no-repeat 3px center;
+    background-size: 18px 18px;
+    border-radius: 0 !important;
+}
+
+.report-container {
+    width: 100%;
+    clear: both;
+    padding-top: 10px;
+}
+
+.ss-load-more-records,.recordMessage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+    color: #5C6771;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+
+.status .report-value[title*="Approved"],
+.status .report-value[title*="Manual-Payment"]{
+     color:#42C655;
+ }
+
+.status .report-value[title*="Decline"],
+.status .report-value[title*="Cancelled"],
+.status .report-value[title*="Failed"]{
+    color:red;
+}
+
+.status .report-value[title*="Pending"],
+.status .report-value[title*="Incomplete"]{
+    color:#F09019;
+}
+
+.report-value-error {
+    color: red;
+}
+
+.date-field-container {
+    display: flex;
+    align-items: center;
+}
+
+.date-field-arrow {
+    padding-right: 20px;
+}

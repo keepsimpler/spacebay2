@@ -1,0 +1,47 @@
+.payment-method-action-modal {
+    width: 600px;
+}
+
+.payment-method-action-modal-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 50px;
+    border-bottom: 1.2px solid #EFEBEB;
+}
+
+.payment-method-action-modal-prompt {
+    padding: 30px 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.payment-method-action-modal-prompt-footer {
+    padding: 15px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.payment-method-action-modal-prompt-btn-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-method-action-modal-prompt-btn {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.payment-method-action-modal-btn-confirm {
+    color: #42C655;
+    border: 1px solid #42C655;
+    background: #FFFFFF;
+}
+
+.payment-method-action-modal-btn-confirm:active {
+    background: #FFFFFF;
+}
+
+.payment-method-action-modal-error {
+    text-align: center;
+}

@@ -1,0 +1,248 @@
+
+#contact-page .container > div {
+    width: 50%;
+    float: left;
+    margin: 60px 0 75px 0;
+}
+
+.contact-page-info-item {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-page-info-item > div {
+    padding-left: 25px;
+}
+
+.contact-page-info-subtext {
+    padding-left: 80px;
+}
+
+.contact-page-info-item h3 {
+    color: #5D6B7A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.contact-page-info-item span {
+    color: #324559;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-top: 7px;
+    display: block;
+}
+
+.contact-page-info-item a {
+    outline: none;
+    text-decoration: none;
+    color: #324559;
+}
+
+.contact-page-social-networks-panel {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.contact-page-social-networks-panel > div:first-child {
+    color: #324559;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.contact-page-social-networks-panel img {
+    width: 45px;
+    margin-right: 16px;
+    margin-top: 9px;
+}
+
+#contact-page-form-panel {
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 44px 0 rgba(0, 0, 0, 0.04);
+    padding: 36px 51px;
+
+}
+
+#contact-page-form-panel form label {
+    color: #5D6B7A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    display: block;
+
+}
+
+#contact-page-form-panel form textarea {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 0;
+    color: #324559;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    padding: 13px 0;
+}
+
+#contact-page-form-panel form input {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 0;
+    color: #324559;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    padding: 13px 0;
+}
+
+#contact-page-form-panel form hr {
+    border-color: #EFEBEB;
+    margin-top: 0;
+}
+
+#contact-page-form-panel form button {
+    margin-top: 50px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.thank_you {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.thank_you h2 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: #324559;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.thank_you p {
+    color: #5C6771;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media all and (max-width: 999px) {
+    #contact-page .container {
+        flex-direction: column-reverse;
+        padding: 50px 0;
+    }
+
+    #contact-page .container > div {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #contact-page-form-panel {
+        order: 1;
+        max-width: 80%;
+    }
+
+    .contact-page-info-item {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .contact-page-info-item > div {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .contact-page-info-item img {
+        margin-bottom: 18px;
+    }
+
+    .contact-page-social-networks-panel {
+        display: none;
+    }
+
+    #contact-page-form-panel {
+        min-height: auto;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #contact-page-form-panel {
+        padding: 25px;
+        max-width: 95%;
+    }
+
+    .contact-page-info-item {
+        max-width: 250px;
+        margin: 20px auto;
+    }
+}
+
+#contact-page-form-panel ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 14px;
+}
+
+#contact-page-form-panel ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 14px;
+}
+
+#contact-page-form-panel :-ms-input-placeholder { /* IE 10+ */
+    font-size: 14px;
+}
+
+#contact-page-form-panel :-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+}
+
+.contact-close-container {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.contact-close-image {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-header-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.contact-header-close {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.contact-header-main-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shortened-header-padding {
+    padding-top: 10px;
+}
+
+.ss-ticket-concern-select {
+    margin: 5px 0 5px 0 !important;
+    padding: 0 !important;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}

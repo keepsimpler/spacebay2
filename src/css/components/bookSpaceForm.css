@@ -1,0 +1,551 @@
+.__react_component_tooltip.show.place-top.tooltip-tip-hover {
+    margin-left: 100px;
+}
+
+.booking-op-row {
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+.booking-op-row > div {
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.booking-op-row > div:first-child{
+    margin-bottom:20px;
+    height: 30px;
+}
+.booking-op-row > div .w50 {
+    padding-right: 5px;
+}
+
+.booking-op-row > div .w100 {
+    padding-right: 5px;
+}
+
+.booking-op-row:nth-last-of-type(2) {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.booking-op-row > div .w50:nth-of-type(2) {
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+.hs-field .ss-select-options-visible {
+    left: 0;
+}
+
+.hs-field .ss-select-item {
+    padding: 10px;
+}
+
+.booking-prices {
+    font-size: 12px;
+}
+
+.booking-prices img {
+    vertical-align: middle;
+    height: 27px;
+    width: 27px;
+    margin-right: 9px;
+}
+
+.booking-prices .row {
+    clear: both;
+    padding: 10px 0;
+    width: calc(100% + 62px);
+    padding: 0 16px;
+}
+
+.booking-prices .row [class^="col"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.booking-prices .row .col-lg-2 {
+    text-align: center;
+}
+
+.booking-prices .row:nth-of-type(2n) {
+    background-color: rgba(77, 170, 225, .03);
+}
+
+.booking-prices .large-width {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+@media all and (max-width: 1200px) {
+    .booking-prices .row [class^="col"] {
+        text-align: left;
+    }
+    .booking-prices .calculated-field{
+        text-align: left;
+    }
+}
+
+@media all and (min-width: 555px) {
+    #selectPayWithCardButton {
+        margin-top: 15px;
+        /*margin-bottom: 26px;*/
+        width: 150px;
+        height: 30px;
+        padding-top: 2px;
+
+    }
+
+    #selectPayWithAchButton {
+        width: 150px;
+        height: 30px;
+        padding-top: 2px;
+
+    }
+
+    #selectInstantVerify {
+        margin-top: 15px;
+        margin-bottom: 26px;
+        width: 150px;
+        height: 30px;
+        padding-top: 2px;
+
+    }
+
+    #selectMicroDepositVerify {
+        width: 150px;
+        height: 30px;
+        padding-top: 2px;
+
+    }
+}
+
+@media all and (max-width: 554px) {
+    #selectPayWithCardButton {
+        margin-top: 15px;
+        /*margin-bottom: 26px;*/
+        width: 50%;
+        height: 30px;
+        padding-top: 2px;
+
+    }
+
+    #selectPayWithAchButton {
+        width: 50%;
+        height: 30px;
+        padding-top: 2px;
+
+    }
+
+    #selectInstantVerify {
+        margin-top: 15px;
+        margin-bottom: 26px;
+        width: 50%;
+        height: 30px;
+        padding-top: 2px;
+
+    }
+
+    #selectMicroDepositVerify {
+        width: 50%;
+        height: 30px;
+        padding-top: 2px;
+
+    }
+}
+
+#supplierDetailsContent {
+    padding: 16px;
+}
+
+#supplierDetailsContent form {
+    padding: 15px 11px;
+    background: #FFF;
+}
+
+#supplierDetailsContent form > div {
+    margin-bottom: 15px;
+}
+
+#supplierDetailsContent p.title-text + div {
+    padding: 7px 10px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#supplierDetailsContent form hr {
+    height: 1px;
+    margin-top: 14px;
+    margin-bottom: 11px;
+    background: rgba(151, 151, 151, .11);
+}
+
+#supplierDetailsContent form .ss-book-space-form-asset-type {
+    width: 240px;
+}
+
+#supplierDetailsContent form .ss-book-space-form-asset-size {
+    width: 70px;
+}
+
+#supplierDetailsContent form a {
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 1;
+    font-weight: 500;
+    color: #28b8f6;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+#supplierDetailsContent form a.like-button {
+    border: 1px solid #4DAAE1;
+    border-radius: 17px;
+    text-decoration: none;
+    color: #74BCE7;
+    font-size: 10px;
+    line-height: 50px;
+    padding: 8px;
+    text-align: center;
+    margin: 18px 0;
+}
+
+.with-toggle {
+    margin: 10px 0;
+}
+
+.with-toggle > div:not[class='hs-field'] {
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.with-toggle > div:last-child {
+    margin-right: 0;
+}
+
+#bookingAmountContainer > div {
+    margin: 0;
+    border-radius: 5px;
+    background-color: rgba(77, 170, 225, 0.03);
+    padding: 14px 18px;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+#bookingAmountContainer > div p {
+    margin-bottom: 10px;
+}
+
+#bookingAmountContainer > div p span:last-child {
+    float: right;
+}
+
+#bookingAmountContainer > div p span:last-child {
+    float: right;
+}
+
+#supplierDetailsContent .toggle-large {
+    margin-left: auto;
+}
+
+#bookSpaceButton {
+    height: 55px;
+    width: 100%;
+}
+
+.book-payment .ss-book-space-radio-label {
+    display: inline;
+    font-size: 13px;
+    top: 0;
+}
+
+.book-payment .ss-book-space-radio-input {
+    margin: 0 0 0 10px;
+    top: 0;
+}
+
+#paymentMethodOptions a {
+    margin-left: 20px;
+    line-height: 35px;
+
+}
+
+/*toggle*/
+.ss-toggle-button-recurring-base {
+    display: flex;
+    border-radius: 17px;
+    align-items: center;
+}
+
+.ss-toggle-button-recurring-base div {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    flex: 1;
+    padding: 6px 10px;
+    border: 1px solid #4DAAE1;
+    cursor: pointer;
+    color: #4DAAE1;
+    background: #fff;
+    white-space:nowrap;
+}
+
+
+.ss-toggle-button-recurring-base > div:last-child {
+    border-radius: 0 17px 17px 0;
+}
+
+.ss-toggle-button-recurring-base > div:first-child {
+    border-radius: 17px 0 0 17px;
+}
+
+.ss-toggle-button-recurring-inactive.ss-toggle-button-recurring-active {
+    color: #FFF;
+    background-color: #4DAAE1;
+}
+
+/**/
+.toggle-large {
+    width: 140px;
+}
+
+
+
+.ss-book-space-form-select-box {
+    margin: 10px;
+    display: flex;
+    width: 170px;
+    height: 55px;
+    border-radius: 3px;
+    box-shadow: -0.9px 0.5px 12px 0 rgba(170, 175, 185, 0.14);
+    background-color: #ffffff;
+    border: solid 1px #cfdddd;
+    padding: 5px;
+}
+
+.ss-book-space-form-fieldset {
+    border: none
+}
+
+.ss-book-space-form-input {
+    padding: 0;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+
+.ss-book-space-form-label {
+    font-size: 9px;
+    font-weight: bold;
+    text-align: left;
+    color: rgba(49, 60, 65, 0.67);
+}
+
+.ss-book-space-form-down-arrow-icon {
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 15px;
+    width: 15px;
+}
+
+.ss-book-space-form-end-box {
+    width: 110px;
+}
+
+.ss-book-space-form-select {
+    margin: 0 0 0 2px !important;
+    padding: 0 !important;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+
+.ss-book-space-form-dates-row {
+    display: flex;
+    padding: 5px;
+}
+
+.ss-book-space-form-checkbox-container {
+    margin-top: 10px;
+}
+
+.ss-book-space-form-input-row {
+    margin: 0;
+    display: initial;
+    width: 100%;
+    border: none !important;
+}
+
+.ss-book-space-form-row-label {
+    margin: 25px 0 0 25px;
+    padding: 0;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.24;
+    text-align: left;
+    color: #999999;
+
+}
+
+.ss-book-space-form-input-input {
+    width: calc(100% - 50px);
+    margin: 8px 25px 13px 25px;
+    padding: 0;
+    border: none;
+
+    font-weight: 600;
+    line-height: 1.24;
+    text-align: left;
+    color: #000000;
+    background-color: #FFFFFF !important;
+}
+
+.ss-book-space-radio-input {
+    display: inline;
+    width: 20px;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
+
+.ss-book-space-book-button {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 20px;
+    width: 250px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+#bookSpaceSubmitContainer {
+    margin: 15px;
+    width:100%;
+    float:left;
+}
+.booking-last-div{
+    min-height: 100px;
+}
+.ss-description > div {
+    opacity: 0.68;
+}
+
+.ss-features [class^="col"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ss-features img {
+    height: 17px;
+    margin: 6px 20px 6px 0;
+    vertical-align: middle;
+}
+
+.ss-features span {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: inherit;
+}
+
+.question-tooltip span {
+    color: #4DAAE1;
+    padding-left: 15px;
+}
+
+.ss-booking-amount-total-row {
+    margin-top: 5px;
+}
+
+@media all and (max-width: 800px) {
+    #supplierDetailsContent p.title-text + div{
+        padding-right:0;
+        padding-left:0;
+    }
+    .booking-op-row{
+        min-width:230px;
+        padding-right:0;
+    }
+    #bookSpaceSubmitContainer{
+        margin-right:0;
+        margin-left:0;
+    }
+}
+
+.book-space-admin-panel {
+    background-color: #dedede;
+    padding: 10px;
+}
+
+.book-space-admin-label label {
+    display: inline-block;
+    color: #5D6B7A;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 10px 5px 0;
+}
+
+.book-space-admin-value {
+    display: inline;
+    color: #324559;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.book-space-admin-info {
+    display: inline;
+    color: #e74c3c;
+    font-weight: 900;
+}
+
+.book-space-admin-footer {
+    margin-top: 20px;
+}
+
+#bookSpaceSubmitContainer .ss-error {
+    margin-top: 15px;
+}
+
+.renewal-label {
+    /*text-align: right;*/
+    color: red;
+}
+
+.overage-container {
+    padding-bottom: 15px;
+}
+
+.overage-info-header {
+    display: inline-flex;
+    padding-bottom: 15px;
+}
+
+.overage-info-tooltip {
+    top: 3px;
+}
+
+.overage-price-container {
+    display: flex;
+    padding-left: 15px;
+}
+
+.overage-price-label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.overage-price-value {
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 100px
+}

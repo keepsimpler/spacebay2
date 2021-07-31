@@ -1,0 +1,392 @@
+@media all and (min-width: 1300px) {
+
+    #ssCompanyProfile.ss-main > header {
+        width: 520px;
+        height: 100%;
+        margin-top: -70px;
+        background-image: none;
+    }
+
+    #ssCompanyProfile.ss-main > header > h1 {
+        padding-top: 187px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    #ssCompanyProfile.ss-main > section {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+        left: 520px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #ssCompanyProfileFormContainer {
+        width: 570px;
+        padding-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #ssFinancialProfileFormContainer {
+        width: 570px;
+        padding-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #ssPayoutCriteriaFormContainer {
+        padding-top: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #companyFinancialSelection {
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #financialProfileSelection {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #selectCompanyButton {
+        width: 285px;
+        height: 75px;
+    }
+
+    #selectFinancialButton {
+        width: 285px;
+        height: 75px;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1299px) {
+
+    #ssCompanyProfile.ss-main > header {
+        width: 40%;
+        height: 100%;
+        margin-top: -70px;
+    }
+
+    #ssCompanyProfile.ss-main > header > h1 {
+        padding-top: 187px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    #ssCompanyProfile.ss-main > section {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+        left: 40%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #ssCompanyProfileFormContainer {
+        padding-top: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #ssFinancialProfileFormContainer {
+        padding-top: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #ssPayoutCriteriaFormContainer {
+        padding-top: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #companyFinancialSelection {
+        margin-top: 15px;
+    }
+
+    #financialProfileSelection {
+        margin-top: 15px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #selectCompanyButton {
+        width: 50%;
+        height: 75px;
+    }
+
+    #selectFinancialButton {
+        width: 50%;
+        height: 75px;
+    }
+
+}
+
+@media all and (max-width: 999px) {
+
+    #ssCompanyProfile.ss-main > header footer {
+        display: none;
+    }
+
+    #ssCompanyProfile.ss-main > header {
+        height: 86px;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        left: 0;
+    }
+
+    #ssCompanyProfile.ss-main > header > h1 {
+        position: absolute;
+        top: 30px;
+        left: 27px;
+    }
+
+    #ssCompanyProfile.ss-main > section {
+        position: absolute;
+        top: 156px;
+        right: 27px;
+        bottom: 0;
+        left: 27px;
+    }
+
+    #ssCompanyProfileFormContainer {
+        padding-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #ssFinancialProfileFormContainer {
+        padding-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #ssPayoutCriteriaFormContainer {
+        padding-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #companyFinancialSelection {
+        padding-top: 15px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #financialProfileSelection {
+        padding-top: 15px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #selectCompanyButton {
+        width: 50%;
+        height: 75px;
+    }
+
+    #selectFinancialButton {
+        width: 50%;
+        height: 75px;
+    }
+}
+
+
+#ssCompanyProfile.ss-main > header {
+    background-color: #28b8f6;
+    background-image: none;
+}
+
+#ssCompanyProfile.ss-main > hr {
+    position: absolute;
+    top: 70px;
+    height: 1px;
+    width: 100%;
+    color: rgba(34, 34, 34, 0.1);
+    background-color: rgba(34, 34, 34, 0.1);
+    z-index: 9998;
+}
+
+#ssCompanyProfileFormContainer .ss-danger-box, #ssCompanyProfileFormContainer .ss-success-box {
+    width: auto;
+    position: absolute;
+    top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.ss-company-profile-header {
+    margin: 35px 0;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #313c41;
+}
+
+.ss-securspace-fee {
+    margin-top: 20px;
+}
+
+.ss-subscription {
+    margin-top: 20px;
+}
+
+.ss-subscription-fee {
+    margin-top: 20px;
+}
+
+.ss-subscription-start-date {
+    margin-top: 20px;
+}
+
+.ss-subscription-billing-fee {
+    margin-top: 20px;
+}
+
+#ssCompanyProfileFormContainer .ss-summary {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+/***/
+.company form {
+    padding:24px 30px 33px 30px;
+}
+
+.for-section-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media all and (min-width: 1000px) {
+    .for-section {
+        padding: 0 30px!important;
+        flex: 1 0 500px;
+    }
+}
+
+@media all and (max-width: 999px) {
+    .for-section {
+        padding: 0 30px!important;
+    }
+}
+
+
+.group-title{
+    color: #5D6B7A;		font-size: 15px;	font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 0;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin:24px 0 8px 0;
+    width: 100%;
+    float:left;
+}
+
+.group-title.user {
+    background-size: 28px;
+    background-image: url('app-images/users/user@2x.png');
+}
+.group-title.company {
+    background-size: 28px;
+    background-image: url('app-images/users/business-bag@2x.png');
+}
+
+.group-title.company-image {
+    background-size: 24px;
+    background-image: url('app-images/users/frame-landscape@2x.png');
+}
+.group-title.agreement-image {
+    background-size: 24px;
+    background-image: url('app-images/users/certificate@2x.png');
+}
+.group-title.info-image {
+    background-size: 24px;
+    background-image: url('app-images/users/info.png');
+}
+.group-title.charge-image {
+    background-size: 24px;
+    background-image: url('app-images/users/charge.png');
+}
+.group-title.schedule-image {
+    background-size: 24px;
+    background-image: url('app-images/users/schedule.png');
+}
+.group-title.bank-image {
+    background-size: 24px;
+    background-image: url('app-images/users/credit_card@2x.png');
+}
+
+.for-section > div fieldset{
+    margin:8px 0;
+    width: 100%;
+    float:left;
+}
+form.ss-form.ss-block .ss-button-container.border-top.text-center{
+    border-top: 1px solid #F1F1F1;
+    margin-bottom: 0;
+    margin-top:50px;
+    padding-top: 33px;
+
+}
+form.ss-form.ss-block .ss-button-container.border-top.text-center button{
+    text-transform: uppercase;
+    font-size: 12px;	
+    font-weight: bold;
+    padding:10px 60px;
+}
+.for-section p{
+    color: #5C6771;	font-size: 13px;
+    padding:12px 0 16px 0 ;
+}
+
+@media all and  (max-width: 1200px) {
+    #ssCompanyProfile form > div.flex{
+        display: block;
+    }
+    .for-section{
+        width:100%;
+        float:left;
+        padding: 0 !important;
+    }
+    .group-title.empty{
+        display: none;
+    }
+}
+@media (max-width: 999px){
+    form.ss-form .for-section textarea {
+        padding: 8px 0 13px 25px;
+        margin: 0;
+    }
+    #ssFinancialProfileFormContainer{
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+}
+
+
+@media all and  (max-width: 600px) {
+.company form{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 0;
+}
+}

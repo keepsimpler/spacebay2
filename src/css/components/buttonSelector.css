@@ -1,0 +1,55 @@
+.button-selector {
+    border-radius: 17px;
+}
+
+.button-selector > button:first-child {
+    border-radius: 17px 0 0 17px;
+}
+
+.button-selector > button:last-child {
+    border-radius: 0 17px 17px 0;
+}
+
+.button-selector > button {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 10px;
+    cursor: pointer;
+    color: #F09019;
+    background: #fff;
+    white-space: nowrap;
+    border: 1px solid #F09019;
+    border-radius: 17px;
+}
+
+.report-form .search-container .button-selector > button {
+    width: 70px;
+    padding: 6px;
+}
+.button-selector .ss-button-primary-selected {
+    color: #fff;
+    background-color: #F09019;
+}
+
+
+.hs-selector .button-selector{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    clear:both;
+}
+#ssApp .hs-selector .button-selector > button{
+    border-color: #4daae1;
+    color: #4daae1;
+    font-size: 12px;
+    font-weight: 500;
+}
+#ssApp  .hs-selector .button-selector > button.ss-button-primary-middle{
+    font-weight: 500 !important;
+}
+#ssApp  .hs-selector .button-selector .ss-button-primary-selected {
+    color: #fff;
+    background-color: #4daae1;
+}

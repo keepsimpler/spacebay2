@@ -1,0 +1,35 @@
+.partner-details-container {
+    padding: 0 90px;
+    min-width: 450px;
+}
+
+.partner-profile-header-container {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.partner-nav-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.partner-nav-item {
+    padding: 15px 30px;
+    font-size: 17px;
+    color: #5D6B7A;
+    cursor: pointer;
+}
+
+.partner-nav-item.active {
+    font-weight: bold;
+    border-bottom: 3px solid #19C6F0;
+}
+
+.partner-details-content-container {
+    background: white;
+    margin-top: 25px;
+    min-height: 70vh;
+}

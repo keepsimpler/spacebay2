@@ -1,0 +1,22 @@
+.secur-space-modal {
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    outline: 0;
+    background-clip: padding-box;
+}
+
+.secur-space-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(47, 47, 47, 0.5);
+}
+
+.ReactModal__Body--open {
+    overflow: hidden;
+}

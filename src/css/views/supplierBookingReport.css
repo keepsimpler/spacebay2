@@ -1,0 +1,13 @@
+.ss-create-new-booking-button-wrapper {
+    position: relative;
+}
+
+.ss-create-new-booking-button {
+    position: absolute;
+    top: 20px;
+    right: 90px;
+}
+
+#ss-supplier-bookings-report.hs-field input {
+    width: 100%;
+}

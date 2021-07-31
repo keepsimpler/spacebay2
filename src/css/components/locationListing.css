@@ -1,0 +1,112 @@
+.ss-location-details > div{
+    width:100%;
+    display:flex;
+    margin-bottom:10px;
+}
+.ss-location-details > div > label{
+    min-width:200px;
+}
+.ss-location-details > div > div {
+    flex:1;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+}
+.ss-location-container {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.ss-location-details {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+
+
+@media all and (min-width: 1000px) {
+    .ss-location-details {
+        width: 530px;
+        margin-top: 22px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .ss-location-details button {
+        width: 210px;
+        height: 55px;
+        margin: 10px 0 0 0;
+        display: inline-block;
+    }
+}
+
+@media all and (max-width: 999px) {
+    .ss-location-details {
+        margin-top: 22px;
+        margin-left: 0;
+        display: block;
+        vertical-align: top;
+    }
+
+    .ss-location-details button {
+        width: 128px;
+        height: 45px;
+        margin: 10px 0 0 0;
+        display: inline-block;
+        font-size: 14px;
+    }
+}
+
+
+.ss-location-container hr {
+    height: 1px;
+}
+
+.ss-location-image {
+    width: 200px;
+    height: 180px;
+    margin-top: 22px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.ss-location-details p.ss-summary {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.ss-location-container button.ss-button-danger {
+    margin-right: 10px;
+}
+
+.ss-location-container button.ss-button-danger-primary {
+    margin-right: 10px;
+}
+
+#ssLocationsProfileLocationContainer h6 {
+    padding-top: 20px;
+    padding-bottom: 81px;
+    text-align: center;
+}
+
+#ssLocationsProfileLocationContainer .alert {
+    margin: 10px 0 0 0;
+}
+
+.ss-delete-confirmation {
+    margin-top: 10px;
+}
+
+.ss-delete-confirmation > hr {
+    margin-top: 25px;
+}
+
+.ss-button-panel-message {
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 30px !Important;
+    margin-right: 20px !Important;
+}

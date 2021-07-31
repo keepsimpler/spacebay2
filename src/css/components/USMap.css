@@ -1,0 +1,273 @@
+#us-map {
+    background-color: #f6f6f6;
+    padding: 50px 90px;
+  }
+.search #us-map{
+    width:100%;
+    float:left;
+
+}
+
+.search #landing-page-us-map svg:not(:root){
+    max-width:65%;
+}
+#us-map h1,#us-map h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #313c41;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.clear { clear: both; }
+#us-map > div {
+    display: flex;
+    align-items: flex-start;
+}
+
+#landing-explore-listings-panel-list {
+    width: 25%;
+    max-height: 300px;
+    margin-top: 50px;
+}
+
+#landing-explore-listings-panel-list div:first-child {
+    margin: 25px 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #5C6771;
+}
+
+#landing-explore-listings-panel-list div:first-child span {
+    color: #4DAAE1;
+    text-transform: uppercase;
+}
+
+#map-container {
+    padding-left: 90px;
+    width: 75%;
+    order: 1;
+    position: relative;
+}
+
+#map-container g {
+    position: relative;
+}
+
+#landing-page-us-map svg:not(:root) {
+    overflow: visible;
+    display: block;
+}
+
+#landing-page-us-map text {
+    font-size: 75%;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#landing-page-us-map path {
+    fill: #dddddd;
+    /*stroke: #f6f6f6;*/
+    cursor: pointer;
+}
+
+#landing-page-us-map path.blue-path {
+    fill: rgb(77, 170, 225);
+}
+
+path:hover:not('.is-selected') {
+    stroke: #ddd !important;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    transform-origin: inherit;
+}
+
+#landing-page-us-map path.is-selected {
+    filter: url('#feOffset');
+    stroke-width: 2px;
+   /*stroke: rgb(77, 170, 225) !important;*/
+    stroke: #f79019 !important;
+}
+
+#landing-page-us-map path:hover {
+    /*filter: url('#feOffset');*/
+    stroke-width: 2px;
+    /*stroke: rgb(77, 170, 225) !important;*/
+    stroke: #f79019 !important;
+}
+
+/*
+    *************** Explore Listings Section *******************
+*/
+#landing-explore-listings-panel-list span.col-lg-12 {
+    overflow: hidden;
+    padding-left: 0;
+}
+
+#landing-explore-listings-panel-list a.city-link {
+    display: table;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    outline: none;
+    text-decoration: none;
+    padding-right: 14px;
+    color: #5C6771;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+#landing-explore-listings-panel-list a.city-link img {
+    height: 34px;
+    width: 34px !important;
+    margin: 3px 10px 3px 3px;
+    display: table-cell;
+}
+
+#landing-explore-listings-panel-list a.city-link span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    overflow: hidden;
+    display: table-cell;
+}
+
+.no-city-name {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #313c41;
+    text-decoration: none;
+    display: block;
+}
+
+.no-city-name a {
+    color: #f79019;
+}
+
+#us-map .for-mobile {
+    display: none;
+}
+
+#us-map .zoom {
+    width: 40px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.22);
+    right: 22px;
+    bottom: 22px;
+}
+
+#us-map .zoom button {
+    width: 100%;
+    height: 34px;
+    background: transparent;
+    border: none;
+    clear: both;
+    font-size: 30px;
+    color: #979797;
+    padding: 0;
+    line-height: 34px;
+}
+
+#us-map .zoom button:first-child {
+    border-bottom: 1px solid #eaeaea;
+}
+
+@media all  and (max-width: 999px) {
+
+    #us-map > div {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #map-container {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #landing-page-us-map {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    #landing-page-us-map svg {
+        margin: auto;
+        padding-left: 0;
+    }
+
+    #landing-explore-listings-panel-list {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #landing-explore-listings-panel-list div:first-child {
+        text-align: center;
+    }
+}
+
+@media all  and (max-width: 800px) {
+    #us-map > div {
+        position: relative;
+    }
+
+    #us-map .for-mobile {
+        display: block;
+        position: absolute;
+    }
+
+    #map-container {
+        width: 100%;
+        height: 450px;
+        overflow-x: auto;
+        border: 1px solid #E2E2E2;
+        border-radius: 9px;
+    }
+
+    #map-container {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    #map-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    #landing-page-us-map {
+        width: 100%;
+        padding: 30px 0;
+        min-width: 700px;
+        overflow-x: auto;
+    }
+
+    .zoom_2X #landing-page-us-map {
+        transform: scale(2);
+    }
+
+    #landing-explore-listings-panel-list {
+        margin-top: 0;
+    }
+
+    #landing-explore-listings-panel-list a.city-link {
+        display: flex;
+        align-items: center;
+    }
+
+    #landing-explore-listings-panel-list a.city-link img {
+        display: block;
+    }
+
+    #landing-explore-listings-panel-list a.city-link span {
+        display: block;
+    }
+}
+
+@media all  and (max-width: 500px) {
+    #us-map {
+        padding: 50px 5%;
+    }
+
+}

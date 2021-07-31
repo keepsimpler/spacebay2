@@ -1,0 +1,42 @@
+.update-payment-method-selector {
+    margin: 8px 25px 13px 25px;
+}
+
+.update-payment-method-input {
+    margin-right: 10px !important;
+}
+
+.update-payment-method-radio-button-label {
+    display: inline;
+    font-size: 13px;
+    top: 0;
+}
+
+.update-payment-method-label-bold {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.update-payment-method-payment-fee-warning {
+    font-size: 14px;
+}
+
+.update-payment-method-tos-container {
+    font-size: 13px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.update-payment-method-tos-checkbox {
+    height: 18px;
+    width: 18px;
+}
+
+.update-payment-method-tos-text {
+    padding-left: 10px;
+}

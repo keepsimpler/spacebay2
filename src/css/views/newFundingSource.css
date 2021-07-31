@@ -1,0 +1,47 @@
+body.company form#newFundingSourceForm {
+    padding-top: 0;
+}
+@media all and (min-width: 1300px) {
+
+    #ssNewFundingSource .ss-button-danger {
+        width: 280px;
+        margin-right: 10px;
+    }
+
+    #ssNewFundingSource .ss-button-primary {
+        width: 280px;
+        margin-right: 0;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1299px) {
+
+    #ssNewFundingSource .ss-button-danger {
+        margin-right: 0;
+    }
+
+    #ssNewFundingSource .ss-button-primary {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 999px) {
+
+    #ssNewFundingSource .ss-button-danger {
+        margin-right: 0;
+    }
+
+    #ssNewFundingSource .ss-button-primary {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+}
+
+#ssNewFundingSource .ss-button-danger {
+    height: 70px;
+}
+
+#ssNewFundingSource .ss-button-primary {
+    height: 70px;
+}

@@ -1,0 +1,40 @@
+.add-payment-method-select-container {
+    position: relative;
+}
+
+.add-payment-method-select-label {
+    font-weight: normal;
+}
+
+.add-payment-method-select-input {
+    margin-left: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.add-payment-method-select-options-list-container {
+    position: absolute;
+    z-index: 9999;
+    background: #f2f2f2;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px #dddddd;
+    border-radius: 7px;
+    top: 50px;
+    left: 25px;
+    width: 90%;
+}
+
+.add-payment-method-select-option {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.add-payment-method-select-option:hover {
+    font-weight: bold;
+}

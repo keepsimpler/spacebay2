@@ -1,0 +1,52 @@
+.ss-danger-box {
+    color: #7e2929;
+    background-color: #fabfbf;
+}
+
+.ss-success-box {
+    color: #226928;
+    background-color:  #9beeb1;
+}
+
+.ss-warning-box {
+    color: #85632d;
+    background-color:  #fcdca8;
+}
+
+.ss-primary-box {
+    color: #004085;
+    background-color:  #cce5ff;
+}
+
+.ss-as-overlay {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ss-large {
+    width: 420px;
+    max-width:70%;
+    margin:12px auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: solid 1px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.ss-small {
+    height: 22px;    
+    font-size: 11px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}

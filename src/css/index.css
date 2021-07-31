@@ -1,0 +1,539 @@
+/* @import '../fonts/font-awesome/css/font-awesome.min.css'; */
+
+/*Montserrat*/
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-Black.woff") format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-BlackItalic.woff") format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-ExtraBold.woff") format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-ExtraBoldItalic.woff") format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-Bold.woff") format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-BoldItalic.woff") format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-SemiBold.woff") format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-SemiBoldItalic.woff") format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-Medium.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-MediumItalic.woff") format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-Regular.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-Italic.woff") format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-Light.woff") format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-LightItalic.woff") format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-ExtraLight.woff") format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-ExtraLightItalic.woff") format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-Thin.woff") format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://s3-us-west-1.amazonaws.com/securspace-files/app-fonts/Montserrat-ThinItalic.woff") format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Sofia Pro */
+@font-face {
+    font-family: "SofiaPro";
+    font-display: swap;
+    src: local('SofiaPro'), local('39415B_1_0'),
+    url('../fonts/webfonts/39415B_1_0.woff2') format('woff2'),
+    url('../fonts/webfonts/39415B_1_0.woff') format('woff'),
+    url('../fonts/webfonts/39415B_1_0.eot'),
+    url('../fonts/webfonts/39415B_1_0.ttf') format('truetype'),
+    url('../fonts/webfonts/39415B_1_0.eot?#iefix') format('embedded-opentype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "SofiaPro";
+    font-display: swap;
+    src: local('SofiaPro'), local('39415B_0_0'),
+    url('../fonts/webfonts/39415B_0_0.woff2') format('woff2'),
+    url('../fonts/webfonts/39415B_0_0.woff') format('woff'),
+    url('../fonts/webfonts/39415B_0_0.eot'),
+    url('../fonts/webfonts/39415B_0_0.ttf') format('truetype'),
+    url('../fonts/webfonts/39415B_0_0.eot?#iefix') format('embedded-opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SofiaPro";
+    font-display: swap;
+    src: local('SofiaPro'), local('39415B_0_0'),
+    url('../fonts/webfonts/39415B_0_0.woff2') format('woff2'),
+    url('../fonts/webfonts/39415B_0_0.woff') format('woff'),
+    url('../fonts/webfonts/39415B_0_0.eot'),
+    url('../fonts/webfonts/39415B_0_0.ttf') format('truetype'),
+    url('../fonts/webfonts/39415B_0_0.eot?#iefix') format('embedded-opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SofiaPro";
+    font-display: swap;
+    src: local('SofiaPro'), local('39415B_2_0'),
+    url('../fonts/webfonts/39415B_2_0.woff2') format('woff2'),
+    url('../fonts/webfonts/39415B_2_0.woff') format('woff'),
+    url('../fonts/webfonts/39415B_2_0.eot'),
+    url('../fonts/webfonts/39415B_2_0.ttf') format('truetype'),
+    url('../fonts/webfonts/39415B_2_0.eot?#iefix') format('embedded-opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select, option, optgroup, button, textarea {
+    text-indent: initial;
+}
+
+textarea {
+    white-space: pre-wrap;
+}
+
+body,
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #324559;
+    font-family: SofiaPro, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.3;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
+
+strong {
+    font-weight: 700;
+}
+
+button:focus, input:focus, textarea:focus {
+    outline: none #777777 thin;
+}
+
+#root {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #6d6d6d;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #324559;
+    font-family: SofiaPro, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    opacity: .3;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #324559;
+    font-family: SofiaPro, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    opacity: .3;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: #324559;
+    font-family: SofiaPro, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    opacity: .3;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #324559;
+    font-family: SofiaPro, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    opacity: .3;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/**/
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.flex {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-center {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+/*radio button css*/
+.radio-container {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radio-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #F09019;
+    border-radius: 10px;
+    background: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .checkmark {
+    /*background-color: #ccc;*/
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #F09019;
+}
+
+.__react_component_tooltip.type-success.tooltip-tip-hover {
+    color: #28b8f6 !important;
+    font-size: 12px;
+    max-width: 250px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 14px 0 #F2F1F1;
+    opacity: 1;
+}
+
+.__react_component_tooltip.show {
+    opacity: 1;
+}
+
+.tooltip-tip-hover p {
+    margin-bottom: 8px;
+}
+
+.__react_component_tooltip.type-success.tooltip-tip-hover::after {
+    border-top-color: #28b8f6 !important;
+    border-top-style: solid !important;
+    border-top-width: 6px !important;
+    visibility: hidden;
+}
+
+.__react_component_tooltip.type-success.tooltip-tip-hover span {
+    color: #FFFFFF !important;
+
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.page-title {
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    color: #313c41;
+    margin: 0;
+}
+
+.section-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+}
+
+.content-header-title {
+    font-family: Montserrat, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 13px;
+    color: #324559;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    text-align: center;
+}
+
+.content-header-description {
+    color: #5C6771;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 599px) {
+    .content-header-title {
+        font-size: 30px;
+    }
+
+    .content-header-description {
+        width: 90%;
+        font-size: 16px;
+    }
+
+}
+
+.take-no-space {
+    margin: 0 !important;
+    padding: 0 !important;
+    /*height: 0 !important;*/
+    /*width: 0 !important;*/
+}
+
+body.no-scroll {
+    overflow: hidden;
+}

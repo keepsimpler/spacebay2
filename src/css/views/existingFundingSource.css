@@ -1,0 +1,67 @@
+.white-container > div.row-no-gutters:last-child > div.container-company-bank {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+body.company form.ss-existing-financial-profile-form {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.ss-existing-financial-profile-form img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 50%;
+}
+body.company form.ss-form.ss-block.ss-existing-financial-profile-form .ss-button-container {
+    padding: 33px 0;
+    margin:  0;
+    width:100%;
+    border-top: 1px solid #F1F1F1;
+}
+
+.ss-existing-financial-profile-form > div {
+    display: flex;
+    align-items: center;
+}
+
+.ss-existing-financial-profile-form  div.form-content > div {
+    flex: 1 0 50%;
+    padding: 10px 30px;
+}
+
+.ss-existing-financial-profile-form div > div p {
+    text-transform: uppercase;
+    color: #5D6B7A;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.ss-existing-financial-profile-form div > div span {
+    color: #324559;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.ss-existing-financial-profile-form div.form-content > div div{
+    margin-bottom: 20px;
+}
+
+.ss-remove-account-btn {
+    margin-right: 10px;
+}
+
+@media all and (max-width: 999px) {
+    .ss-existing-financial-profile-form > div {
+        flex-direction: column;
+    }
+    .ss-existing-financial-profile-form img{
+        margin-left:auto;
+        margin-right:auto;
+        float:none !important;
+        display: block;
+    }
+}

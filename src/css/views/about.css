@@ -1,0 +1,171 @@
+.about header img {
+    padding: 30px 0 20px 0;
+}
+
+.about header {
+    width: 100%;
+    float: left;
+}
+
+.about .switch > div {
+    padding: 4px;
+    border: 1px solid #4DAAE1;
+    border-radius: 33px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 23px auto 60px auto;
+}
+
+.about .switch span {
+    width: 50%;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    opacity: 0.6;
+    color: #4DAAE1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.about .switch span.active {
+    border-radius: 33px;
+    background-color: #4DAAE1;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.about-solve-panel-trucks {
+    width: 100%;
+    float: left;
+    align-items: center;
+}
+
+.about-solve-panel-trucks-img {
+    height: 50px;
+}
+
+.about-solve-panel-trucks > div {
+    width: 50%;
+}
+
+.about-solve-panel-trucks > div:first-child {
+    min-height: 420px;
+    background-image: url("app-images/about/image-trucks.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-solve-panel-trucks h2 {
+    color: #324559;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.about-solve-panel-trucks p {
+    color: #5C6771;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.about-solve-panel-trucks > div:last-child {
+    padding: 60px 50px;
+}
+
+.about-solve-panel-trucks button {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 40px;
+}
+
+.about-answers-panel {
+    width: 100%;
+    float: left;
+    align-items: center;
+    padding: 70px;
+    flex-direction: column;
+}
+
+.about-answers-panel h3 {
+    max-width: 100%;
+
+    margin: 0 auto;
+    text-align: center;
+    color: #324559;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.about-answers-panel > div {
+    width: 100%;
+    color: #5C6771;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.about-answers-panel > div > div {
+    display: table;
+    margin: 35px auto 0;
+}
+
+.about-answers-panel > div > div span img {
+    float: left;
+    padding-right: 26px;
+    vertical-align: middle;
+}
+
+.about-answers-panel > div > div > span {
+    display: inline-flex;
+    padding: 15px 60px;
+    align-items: center;
+}
+.about-answers-panel > div > div > span:first-child{
+    padding-left: 0;
+}
+.about-answers-panel > div > div > span:last-child{
+    padding-right: 0;
+}
+
+
+
+@media all and (max-width: 1000px) {
+    .about-solve-panel-trucks > div {
+        width: 100%;
+    }
+
+    .about-solve-panel-trucks > div:first-child {
+        display: none;
+    }
+
+    .about-answers-panel > div > div > span {
+        display: block;
+        padding: 15px 0;
+        align-items: center;
+        margin:0 auto;
+        overflow: hidden;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    .about .switch > div {
+        max-width: 300px;
+    }
+    .about .switch span{
+        font-size:14px;
+        padding:10px;
+    }
+}
+

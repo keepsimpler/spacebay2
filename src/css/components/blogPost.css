@@ -1,0 +1,541 @@
+.blog article > a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.blog-content {
+    overflow: visible;
+    display: block;
+    clear: both;
+    float: left;
+    margin: 30px 0;
+}
+
+.blog-time {
+    display: block;
+    padding: 20px 0 0;
+    color: #bbb;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.blog-post h2 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0px;
+    line-height: 1.1em;
+    font-family: Montserrat;
+    text-transform: none;
+    height: 120px;
+    overflow: hidden;
+}
+
+.blog-post h2:after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: #888;
+    margin: 20px auto;
+    -webkit-transition: height 100ms ease-in-out;
+    -moz-transition: height 100ms ease-in-out;
+    -ms-transition: height 100ms ease-in-out;
+    -o-transition: height 100ms ease-in-out;
+    transition: height 100ms ease-in-out;
+}
+
+/*from hubspot blog styles*/
+.white-bg {
+    background: #fff;
+}
+
+.hs-featured-image-wrapper .hs-featured-image-link {
+    display: block;
+}
+
+.hs-featured-image-link {
+    border: 0;
+}
+
+.blog section.w100, .blog-post-single {
+    min-height: 100vh;
+}
+
+.blog-content article {
+    color: #666;
+    width: 48.5%;
+    margin: 0 3% 3% 0;
+    height: 350px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+
+}
+
+.blog-content article:nth-of-type(3n+2) {
+    margin: 0 0 3% 0;
+}
+
+.blog-content article:nth-of-type(3n) {
+    width: 100%;
+    margin: 0 0 3% 0;
+    height: 430px;
+}
+
+.blog-content article img {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+.blog-content article .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.blog-content article:hover .overlay {
+    opacity: 0.6;
+
+}
+
+.blog-content article .title {
+    max-width: 550px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2em;
+    z-index: 100;
+    margin: auto !important;
+    top: 0 !important;
+    right: 0 !important;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.blog-content article .title > div {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.blog-content article .title h2 {
+    font-size: 32px;
+    color: #fff;
+    margin: 1em 0 .5em;
+}
+
+.blog-content article .title h5 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase !important;
+    -webkit-font-smoothing: antialiased !important;
+    margin: 1em 0 .5em;
+}
+
+.blog-content article .title h5 a {
+    color: #fff;
+}
+
+.blog-content article .underline {
+    text-align: center !important;
+    height: 2px;
+    width: 60px;
+    background: #fff;
+    margin: 1.5em auto 2em;
+}
+
+.blog-single .underline {
+    text-align: center !important;
+    background: #324559;
+    margin: auto !important;
+    width: 37px !important;
+    height: 2px !important;
+}
+
+.post-meta-alt {
+    padding: .5em !important;
+    margin: 1em 0 0;
+    font-size: 14px;
+}
+
+.post-meta-alt li {
+    margin: 0 .6em 0 0;
+}
+
+.hs-featured-image-wrapper .hs-featured-image-link img.hs-featured-image {
+    border-width: 0;
+    max-height: 300px;
+    max-width: 100%;
+    display: inline-block !important;
+    float: none !important;
+    margin: 10px 0 10px 0;
+}
+
+.post-header h2 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.grey-bg {
+    background: #f5f5f5;
+}
+
+.blog .grey-bg {
+    margin: 40px 0;
+}
+
+.blog-section-title {
+    font-size: 36px;
+    padding: 20px 0;
+
+}
+
+.blog-content .post-item a,
+.blog-sidebar a {
+    text-decoration: none;
+    color: #34495e;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.blog-sidebar li {
+    margin-bottom: 10px;
+}
+
+#hubspot-author_data {
+    float: left;
+}
+
+.post-header p {
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.blog-post-single .post-header p {
+    font-size: 16px;
+}
+
+.blog-sidebar ul, .sidebar ul {
+    padding-left: 10px;
+    list-style: none;
+}
+
+.widget-blog h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-rendering: optimizelegibility;
+}
+
+.widget-blog {
+    margin-bottom: 40px;
+}
+
+.post-body a {
+    color: #f79019;
+}
+
+.blog-post-single > div {
+    width: 100%;
+    float: left;
+    height: 100%;
+    overflow: auto;
+
+}
+
+.blog-content article {
+    position: relative;
+    background-position: 50%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.blog-post-single .parallax-bg {
+    height: 100vh;
+    width: 100%;
+    float: left;
+    position: relative;
+    background-position: 50%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.blog .parallax-bg {
+    height: 500px;
+    width: 100%;
+    float: left;
+    position: relative;
+    /*background-size: 100% !important;*/
+    background-position: 50%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.parallax {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center 0px;
+    margin-top: 70px;
+}
+
+.blog-post-single {
+    font-size: 16px;
+}
+
+.blog-post-single .title-full {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+    color: #fff;
+    margin-top: 70px;
+    max-width: 80%;
+}
+
+.blog .title-full {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+    max-width: 80%;
+    text-transform: uppercase;
+    margin-top: 70px;
+    color: #fff;
+}
+
+.blog .title-full h5 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase !important;
+    -webkit-font-smoothing: antialiased !important;
+    margin: 1em 0 ;
+}
+.blog .title-full h1 {
+    font-size: 62px !important;
+}
+
+.blog-post-single .title-full h1 {
+    font-size: 72px !important;
+}
+
+.blog-post-single .title {
+    padding: 0 2em;
+}
+
+.blog-post-single .entry-date {
+    text-transform: uppercase;
+}
+
+.blog-post-single .post-header p.subtitle {
+    margin-bottom: 2em;
+    opacity: .5;
+    font-size: 14px;
+}
+
+.blog-post-single .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.25;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+    filter: alpha(opacity=25);
+    z-index: 1;
+}
+
+.overlay-blog {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    z-index: 1;
+}
+
+.blog-post-single .blog-post-content, .blog-single #appNav {
+    width: 100%;
+    float: left;
+    z-index: 99;
+    background: #fff;
+}
+
+.blog-post-single .blog-post-content .container {
+    max-width: 600px;
+}
+
+/*arrange the header*/
+.blog #appNav,
+.blog-single #appNav {
+    display: block;
+    overflow: visible;
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+}
+
+.blog-post-content {
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.blog-single .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.blog-breadcrumb {
+    margin-bottom: 4em;
+}
+
+.blog-breadcrumb a {
+    font-size: 16px;
+    color: #f79019;
+}
+
+.blog-post-tags ul {
+    display: table;
+}
+
+.blog-post-tags ul li {
+    display: inline-block;
+    float: left;
+}
+
+.blog-single .content-header {
+    margin-bottom: 3em;
+}
+.blog-single .post-body .caption a {
+    display: block;
+}
+
+.blog-single .post-body .caption {
+    width: 100%;
+    float: left;
+    line-height: 1.3;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    color: #555d66;
+    text-align: center;
+    font-size: 13px;
+}
+
+.blog-single .post-body p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+
+.blog-single .post-body .caption img {
+    max-width: 100%;
+}
+
+
+@media all and (max-width: 800px) {
+    .blog-content article {
+        width: 100%;
+        margin: 0 0 3% 0;
+        height: 350px;
+
+    }
+
+    .blog-post-single .title-full h1 {
+        font-size: 48px !important;
+
+    }
+    .parallax,.blog-post-single .title-full  {
+        margin-top:55px;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    .blog-post-single .title-full h1 {
+        font-size: 38px !important;
+
+    }
+
+}
+
+.blog-single h2,
+.blog-single .section-subtitle {
+    font-size: 32px;
+    margin: 1em 0 .5em;
+    width: 100%;
+    float: left;
+}
+.blog-single h3 {
+    font-size: 22px;
+    margin: 1em 0 .5em;
+    width: 100%;
+    float: left;
+}
+.blog-single .section-img, .blog-single p img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 16px auto;
+}

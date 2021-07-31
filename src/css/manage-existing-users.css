@@ -1,0 +1,37 @@
+.manage-existing-users-container {
+    display: flex;
+    flex-flow: column;
+    min-width: 450px;
+}
+
+.manage-existing-users-container-supplier {
+    min-width: 500px;
+}
+
+.manage-users-header {
+    display: flex;
+    flex-flow: row;
+}
+
+.manage-users-header-item {
+    flex: 1;
+    color: #5d6b7a;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 12px 24px;
+}
+
+.actions-header-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.existing-users-container {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px 3px 0 0;
+}
+
+.center-text {
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.secur-space-content {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.secur-space-page-content {
+    flex: 1;
+}

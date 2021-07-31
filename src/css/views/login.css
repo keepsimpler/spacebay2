@@ -1,0 +1,161 @@
+.login-form fieldset {
+    width: 100%;
+    float: left;
+    line-height: 19px;
+    padding-top: 30px;
+}
+
+.login-form fieldset.border-bottom {
+    border-bottom: 1.2px solid #EFEBEB;
+}
+
+.login-form fieldset:first-of-type {
+    padding-top: 0;
+}
+
+.login-form .fieldset-up {
+    margin-top: -15px;
+}
+
+.login-form label {
+    width: 100%;
+    color: #5D6B7A;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login-form label.ss-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.login-form fieldset > input {
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #324559;
+    font-family: SofiaPro, sans-serif;
+    padding: 13px 0;
+    float: left;
+}
+
+.login-form input[type="text"] {
+    width: 100%;
+}
+
+.login-form input[type="email"] {
+    width: 100%;
+}
+
+.login-form input[type="password"] {
+    width: 90%;
+}
+
+#signupPassword, #confirmPassword {
+    width: 90%;
+    float: left;
+}
+
+.forgot-password {
+    width: 40%;
+    color: #FF5264;
+    font-size: 10px;
+    font-weight: bold;
+    float: left;
+}
+
+#ssApp .login-form button {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login-signup-panel {
+    width: 100%;
+    background-color: #ebecee;
+    text-align: center;
+}
+
+.footer-login-signup-icon {
+    display: inline-block;
+    width: 23px;
+}
+
+.footer-signup-login-text {
+    text-align: left;
+    color: #3d3f44;
+    margin-left: 7px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.social-login {
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.social-login:first-child {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.social-login button {
+    width: 100%;
+    border: 1px solid #979797;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 8px 0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #3B5998;
+
+}
+
+.social-login.google button {
+    color: #E3190F;
+}
+
+#google-login > span {
+    padding-left: 25px;
+    background-image: url('app-images/google-login.png');
+}
+
+#fb-login > span {
+    padding-left: 17px;
+    background-image: url('app-images/fb-login.png');
+}
+
+
+.social-login button > span {
+    display: table;
+    background-repeat: no-repeat;
+    background-size: auto 18px;
+    background-position: center left;
+    margin: auto;
+    text-align: left;
+}
+
+
+@media all and (max-width: 600px) {
+    .social-login button > span {
+        width:100px;
+    }
+
+    #g-recaptcha >div
+    {
+        transform:scale(0.8);
+        transform-origin:0 0;
+    }
+}
+
+.login-message-container {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    float: left;
+}

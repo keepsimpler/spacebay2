@@ -1,0 +1,27 @@
+.ocr-enabled-field-container {
+    display: flex;
+    flex-flow: column;
+    border-left: 1px solid #E1E1E1;
+    border-right: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.ocr-enabled-field-input-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.ocr-enabled-field-field-container {
+    flex: 1;
+}
+
+.ocr-enabled-field-file-dropper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.ocr-enabled-field-error-container {
+    margin-left: 20px;
+}

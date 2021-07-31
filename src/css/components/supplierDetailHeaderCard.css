@@ -1,0 +1,70 @@
+.ss-supplier-detail-header-card {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: calc(100% + 50px);
+    padding: 12px 50px 12px 0;
+    position: relative;
+    border-top: 1px solid #E7E7E7;
+    margin-top: -1px;
+    height: 90px;
+}
+
+.ss-supplier-detail-header-card > div {
+    background: #F6F4F4;
+}
+
+.ss-supplier-detail-header-card-company-name {
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.ss-supplier-detail-header-card-company-desc {
+    opacity: 0.68;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.ss-supplier-detail-header-card-price {
+    color: #F09625;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+}
+
+.ss-supplier-detail-header-card-price strong {
+    color: #F09019;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.ss-supplier-detail-type  {
+    color: #35475B;
+    text-align:right;
+    font-size: 12px;
+    line-height: 14px;
+}
+.ss-supplier-detail-type span {
+    position:relative;
+}
+.ss-supplier-detail-type span:before{
+    content: "\2022";
+    color: #F09625;
+    font-size:25px;
+    font-weight: bold;
+    margin-left: -15px;
+    top: -2px;
+    position: absolute;
+}
+
+.ss-supplier-detail-type span.instant:before{
+    color: #51ABE1;
+}
+
+.ss-supplier-detail-type span.notlive:before{
+    color: #9c9c9c;
+}

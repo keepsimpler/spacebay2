@@ -1,0 +1,297 @@
+.white-container {
+    width: 100%;
+    float: left;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 44px 0 rgba(0, 0, 0, 0.04);
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.white-container > div.row-no-gutters {
+    width: 100%;
+    float: left;
+    border: none;
+}
+
+.white-container > div.row-no-gutters:last-child {
+    display: flex;
+}
+
+.white-container ul.user-menu li {
+    float: left;
+    color: #5D6B7A;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.white-container ul.user-menu li.active {
+    font-weight: bold;
+    border-bottom: 3px solid #19C6F0;
+}
+
+.white-container ul.user-menu {
+    display: block;
+    padding-left: 40px;
+    overflow: hidden;
+    min-width: 450px;
+}
+
+.white-container > div.row-no-gutters:last-child > div {
+    padding: 24px 40px;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.white-container > div.row-no-gutters:last-child > div.col-lg-7 {
+    background-color: #FDFDFD;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.white-container .add-user {
+    background-color: #FFFFFF;
+    border-right: 1px solid #F1F1F1;
+
+}
+
+.white-container ul.user-menu li:before {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    content: "";
+}
+
+.users-user:before {
+    background-size: 80%;
+    width: 17px;
+    height: 19px;
+    background-image: url('app-images/users/user_inactive@2x.png');
+}
+
+.users-user.active:before {
+    background-image: url('app-images/users/user_active@2x.png');
+}
+
+.users-company:before {
+    background-size: 80%;
+    width: 18px;
+    height: 16px;
+    background-image: url('app-images/users/company_inactive@2x.png');
+}
+
+.users-company.active:before {
+    background-image: url('app-images/users/company_active@2x.png');
+}
+
+.users-bank:before {
+    background-size: 80%;
+    width: 18px;
+    height: 19px;
+    background-image: url('app-images/users/bank_inactive@2x.png');
+}
+
+.users-bank.active:before {
+    background-image: url('app-images/users/bank_active@2x.png');
+}
+
+.white-container .w100 .custom-container {
+    padding: 30px;
+}
+
+.white-container table {
+    min-width: 600px;
+}
+
+.white-container tr {
+    border: 1px solid #E1E1E1;
+    border-radius: 3px 3px 0 0;
+}
+
+.white-container tr td {
+    color: #324559;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 18px 12px;
+}
+
+.white-container thead td {
+    color: #5D6B7A;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 12px;
+    padding-bottom: 24px;
+}
+
+.white-container thead {
+    border: 0;
+}
+
+.white-container thead td {
+    color: #5D6B7A;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+.white-container tr td .ss-button-primary {
+    color: #42C655;
+    border: 1px solid #42C655;
+    background: #fff;
+}
+
+.white-container tr td .ss-button-primary-disabled {
+    color: rgb(221 217 217 / 68%);
+    border: 1px solid rgb(221 217 217 / 68%);
+    background: #fff;
+}
+
+.add-new-user div.pointer {
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.add-new-user div.pointer img {
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.add-new-user div.pointer span {
+    color: #5D6B7A;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.add-new-user div.pointer span.large-plus {
+    display: none;
+    font-size: 35px;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    padding: 0;
+    border: 1px solid #C2C9CC;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.transition-height {
+    width: 100%;
+    float: left;
+    padding-top: 17px;
+}
+
+.white-container .ss-select-options-visible {
+    width: 90%;
+}
+
+@media (max-width: 1199px) {
+    .white-container ul.user-menu li {
+        position: relative;
+        padding: 14px;
+    }
+
+    .white-container ul.user-menu li:after {
+        display: inline-block;
+        content: "";
+        border-right: 1px solid #E1E1E1;
+        width: 3px;
+        height: 27px;
+        position: absolute;
+        right: 1px;
+    }
+
+    .white-container ul.user-menu li:before {
+        margin-right: 0;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .ss-manage-users-container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ss-manage-users-content {
+        flex: 1 0 auto;
+    }
+
+    .ss-manage-users-footer {
+        flex-shrink: 0;
+        height: 150px;
+    }
+
+    .ss-manage-users-container {
+        width: 60%;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 999px) {
+    .ss-manage-users-container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ss-manage-users-content {
+        flex: 1 0 auto;
+    }
+
+    .ss-manage-users-footer {
+        flex-shrink: 0;
+        height: 150px;
+    }
+
+    .ss-manage-users-container {
+        width: 100%;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .white-container > div.row-no-gutters:last-child {
+        display: block;
+    }
+
+    .add-new-user {
+        padding: 17px;
+        padding-bottom: 0;
+        width: 100%;
+        float: left;
+    }
+
+    .add-new-user div.pointer {
+        border: 1px solid #C2C9CC;
+    }
+
+    .add-new-user div.pointer span.large-plus {
+        display: inline-block;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .white-container > div.row-no-gutters ul.user-menu {
+        padding-left: 0;
+    }
+
+    .white-container > div.row-no-gutters:last-child > div.w100 {
+        padding: 0 30px 30px 30px;
+    }
+}

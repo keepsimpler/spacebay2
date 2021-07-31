@@ -1,0 +1,108 @@
+/*Designli general style classes*/
+
+.underline{
+    text-decoration: underline;
+}
+.lower-roman{
+    list-style: lower-roman inside;
+}
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+    outline:0;
+}
+
+table.fixed{
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+/*Static page styles*/
+.content-text{
+    padding:30px 0;
+    line-height: 1.5;
+}
+.static-page-section p{
+    text-indent:20px;
+    margin-bottom:10px;
+}
+.static-page-section{
+    font-size:15px;
+}
+ol{
+    padding-left:0;
+}
+
+.static-page-section p:first-child{
+    padding:15px 0;
+    text-indent:0;
+}
+
+.static-page-section p:first-child span{
+    text-decoration: underline;
+}
+
+.static-page-section .inside{
+    text-indent:0;
+    padding: 5px 0 5px 30px;
+}
+
+.static-page-section .likeul{
+    padding-top: 10px ;
+    margin-bottom: 10px;
+}
+
+.static-page-section ul,
+.static-page-section ol{
+    padding-left: 20px;
+    margin:0;
+    margin-bottom: 20px;
+    text-indent:0;
+}
+.static-page-section ul.disc{
+    list-style: disc;
+}
+.static-page-section .decimal{
+    list-style: decimal inside;
+}
+.static-page-section ol li::before {
+    content: "";
+    width: 10px;
+    display: inline-block;
+}
+.static-page-section ol.big-inside li::before{
+   width:0;
+}
+.static-page-section .join{
+    display: block;
+    padding-left: 20px;
+}
+.big-inside li{
+padding-left:20px;
+}
+/*style for recaptcha*/
+#g-recaptcha >div{
+    margin:0 auto 15px;
+}
+
+
+
+.badge-alert{
+    background:red;
+    margin-top:-8px;
+    position: absolute;
+}
+.badge-alert.left{
+    right:-21px;
+}
+
+
+.badge-alert.right{
+    margin-right:-5px;
+}
+
+
+

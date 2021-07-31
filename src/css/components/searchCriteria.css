@@ -1,0 +1,145 @@
+@media all and (min-width: 1000px) {
+    #searchCriteriaEquipmentTypeLabel {
+        margin-top: 16px;
+        margin-bottom: 14px;
+        margin-right: 180px;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 900;
+        text-align: left;
+        color: #28b8f6;
+    }
+
+    #searchCriteriaLocationFeaturesLabel {
+        margin-top: 16px;
+        margin-bottom: 14px;
+        margin-right: 160px;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 900;
+        text-align: left;
+        color: #28b8f6;
+    }
+
+    #searchCriteriaClose {
+        display: block;
+    }
+}
+
+@media all and (max-width: 999px) {
+    #searchCriteriaEquipmentTypeLabel {
+        margin-top: 16px;
+        margin-bottom: 14px;
+        margin-right: 140px;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 900;
+        text-align: left;
+        color: #28b8f6;
+    }
+
+    #searchCriteriaLocationFeaturesLabel {
+        margin-top: 16px;
+        margin-bottom: 14px;
+        margin-right: 121px;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 900;
+        text-align: left;
+        color: #28b8f6;
+    }
+
+    #searchCriteriaEndDate {
+        margin-right: 0;
+    }
+
+    #searchCriteriaClose {
+        display: block;
+    }
+}
+
+.ss-search-criteria-form {
+    padding: 9px 25px 25px 25px;
+}
+
+.ss-search-criteria-form hr {
+    height: 1px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+#searchCriteriaDatesFieldset {
+    margin-top: 1px;
+}
+
+#searchCriteriaNumberOfSpacesFieldset {
+    margin-top: 1px;
+}
+
+#searchCriteriaLocationName {
+    width: 300px;
+    margin-right: 5px;
+}
+
+#searchCriteriaNumberOfSpaces {
+    width: 200px;
+}
+
+#searchCriteriaEquipmentTypeContainer {
+    cursor: pointer;
+}
+
+#searchCriteriaEquipmentTypeLabel + .carret-right {
+    display: inline-block;
+}
+
+#searchCriteriaLocationFeaturesContainer {
+    cursor: pointer;
+}
+
+#searchCriteriaLocationFeaturesLabel + .carret-right {
+    display: inline-block;
+}
+
+#searchCriteriaLastPageDivider {
+    margin-bottom: 18px;
+}
+
+.ss-search-criteria-form.ss-form.ss-block button {
+    height: 55px;
+    width: 100%;
+}
+
+@media all and (min-width: 555px) {
+    #selectWeeklyButton {
+        margin-top: 14px;
+        width: 80px;
+        height: 31px;
+        padding-top: 2px;
+        
+    }
+
+    #selectMonthlyButton {
+        width: 80px;
+        height: 31px;
+        padding-top: 2px;
+        
+    }
+}
+
+@media all and (max-width: 554px) {
+    #selectWeeklyButton {
+        margin-top: 14px;
+        width: 50%;
+        height: 31px;
+        padding-top: 1.2px;
+        
+    }
+
+    #selectMonthlyButton {
+        width: 50%;
+        height: 31px;
+        padding-top: 1.2px;
+        
+    }
+}

@@ -1,0 +1,25 @@
+.third-party-partner-details-form-container {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+}
+
+
+.third-party-partner-details-button-containers {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #F1F1F1;
+    margin-top: 20px;
+}
+
+.third-party-partner-details-message-container {
+    padding-top: 20px;
+}
+
+.third-party-partner-details-form-submit-button {
+    margin-top: 20px;
+    width: 80%;
+    cursor: pointer;
+}

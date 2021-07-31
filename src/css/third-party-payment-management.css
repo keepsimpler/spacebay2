@@ -1,0 +1,6 @@
+.add-payment-method-btn-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 25px;
+    margin-top: 25px;
+}

@@ -1,0 +1,237 @@
+@media all and (max-width: 999px) {
+
+    #ssLocationsProfile.ss-main > header footer {
+        display: none;
+    }
+
+    #ssLocationsProfile.ss-main > header {
+        height: 141px;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        left: 0;
+    }
+
+    #ssLocationsProfile.ss-main > header > h1 {
+        position: absolute;
+        top: 30px;
+        left: 27px;
+    }
+
+    #ssLocationsProfile.ss-main > section {
+        position: absolute;
+        top: 211px;
+        right: 27px;
+        bottom: 0;
+        left: 27px;
+    }
+
+    #ssLocationsProfileLocationContainer {
+        padding-top: 120px;
+        margin-left: 30px;
+        margin-right: 0;
+    }
+
+}
+
+#ssLocationsProfile.ss-main > header {
+    background-color: #28b8f6;
+    background-image: none;
+}
+
+#ssLocationsProfile.ss-main > hr {
+    position: absolute;
+    top: 70px;
+    height: 1px;
+    width: 100%;
+    color: rgba(34, 34, 34, 0.1);
+    background-color: rgba(34, 34, 34, 0.1);
+    z-index: 9998;
+}
+
+#ssLocationsProfileLocationContainer .ss-danger-box.ss-large, #ssLocationsProfileLocationContainer .ss-success-box.ss-large {
+    width: auto;
+    position: absolute;
+    top: 30px;
+    margin-left: -20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+#ssLocationsProfileLocationContainer .ss-success-box.ss-small {
+    width: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+
+#ssLocationsProfileLocationContainer .ss-danger-box.ss-small {
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    top: -3px;
+}
+
+#ssLocationsProfileLocationContainer a {
+    font-size: 12px;
+}
+
+.first-in-section {
+    margin-top: 10px;
+}
+
+
+/**/
+
+.info-locations .close {
+    right: 7px;
+    position: absolute;
+}
+
+.info-locations .close i {
+    font-size: 12px;
+    font-weight: 400;
+    color: #979797;
+
+}
+
+.info-locations {
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+    border: 1px solid #E7E7E7;
+    border-bottom: 2px solid #19C6F0;
+    background-color: #FDFDFD;
+    overflow: hidden;
+}
+
+.info-locations ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-left: 1px solid #E7E7E7;
+}
+
+.info-locations ul li {
+    flex: 1;
+    padding: 0 40px 0 70px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 30px;
+}
+
+.info-details {
+    display: flex;
+    align-items: center;
+    color: #324559;
+    font-size: 13px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.info-locations ul li.search-image {
+    background-image: url("app-images/locations/search.png");
+}
+
+.info-locations ul li.location-image {
+    background-image: url("app-images/locations/location.png");
+}
+
+.info-locations ul li.list-image {
+    background-image: url("app-images/locations/list.png");
+}
+
+.info-details div:first-child span {
+    display: table;
+    margin: 0 auto;
+    padding: 18px 0;
+}
+
+.info-details div:first-child {
+
+    flex: 1;
+}
+
+.info-details div:last-child {
+    flex: 5;
+}
+.locations .booking-list-item fieldset{
+    overflow-wrap: break-word;
+}
+.locations .hs-bookings-container > div h2 {
+    width: 100%;
+    float: left;
+}
+.locations .green,.locations .green .fa{
+    color: #42C655;
+}
+.locations .grey, .locations .grey .fa{
+    color: #9C9EA0;;
+}
+.bg-icon {
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    background-size: 10px;
+}
+
+.bg-icon.icon-address {
+    background-image: url("app-images/locations/small_location.png");
+}
+
+.bg-icon.icon-phone{
+    background-image: url("app-images/locations/phone.png");
+}
+
+.bg-icon.icon-mail{
+    background-image: url("app-images/locations/mail.png");
+}
+
+@media all and (max-width: 999px) {
+    .bx-viewport {
+        height:auto!important;
+    }
+
+    .info-details .large-screen {
+        display: none;
+    }
+
+    .info-locations ul{
+        display:block;
+        border:none;
+        padding:0;
+    }
+    .info-locations ul li{
+        display:block;
+        border:none;
+        padding:0 0 0 60px;
+    }
+    .info-details div:first-child{
+        flex:none;
+    }
+    .info-details{
+        max-width:70%;
+        display:block;
+        margin:auto;
+    }
+    .info-details .bx-wrapper{
+        margin-bottom:0;
+    }
+    .info-details div:last-child{
+        flex:none;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .info-details {
+        max-width: 90%;
+    }
+}

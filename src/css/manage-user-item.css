@@ -1,0 +1,59 @@
+.manage-user-item-info-container {
+    display: flex;
+    flex-flow: row;
+    padding: 15px 10px;
+    align-items: center;
+}
+
+.manage-user-item-container:not(:last-child) {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.manage-user-info-item {
+    flex: 1;
+    color: #324559;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 3px;
+    padding-right: 3px;
+    word-break: break-word;
+}
+
+.manage-user-info-action-item-container {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.manage-user-info-action-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-locations-button {
+    margin-right: 3px;
+    color: #42c655;
+    border: 1px solid #42c655;
+    background: #fff;
+}
+
+.edit-locations-form-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.edit-locations-form-btn-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-locations-cancel-btn {
+    padding-right: 3px;
+}

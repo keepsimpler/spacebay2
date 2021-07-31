@@ -1,0 +1,22 @@
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.label {
+    flex: 1;
+}
+
+.disabled-button {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.disabled-button:active {
+    background-color: inherit;
+    box-shadow: none;
+    transform: none;
+}

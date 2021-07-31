@@ -3,24 +3,71 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@fancyapps/fancybox": "^3.5.7",
+    "@react-firebase/auth": "^0.2.9",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "bootstrap3": "^3.3.5",
+    "browser-image-compression": "^1.0.14",
+    "bxslider": "^4.2.14",
+    "classnames": "^2.3.1",
+    "core-js": "^3.15.2",
+    "cropperjs": "^1.5.12",
+    "dynamsoft-javascript-barcode": "^8.4.0",
+    "firebase": "^8.8.0",
+    "fontawesome-4.7": "^4.7.0",
+    "js-money": "^0.6.3",
+    "moment": "^2.29.1",
+    "radium": "^0.26.1",
     "react": "^17.0.2",
+    "react-cropper": "^2.1.8",
+    "react-csv": "^2.0.3",
     "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.4",
+    "react-dropzone-component": "^3.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-iframe": "^1.8.0",
+    "react-modal": "^3.14.3",
+    "react-recaptcha": "^2.3.10",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-modal": "^1.5.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-toastify": "^7.0.4",
+    "react-tooltip": "^4.2.21",
+    "regenerator-runtime": "^0.13.9",
+    "superagent": "^6.1.0",
+    "trackjs": "^3.9.2",
+    "underscore": "^1.13.1",
+    "web-vitals": "^1.0.1",
+    "zxcvbn": "^4.4.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3000 & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
     ]
   },
   "browserslist": {
@@ -34,5 +81,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.3.6",
+    "@storybook/addon-essentials": "^6.3.6",
+    "@storybook/addon-links": "^6.3.6",
+    "@storybook/node-logger": "^6.3.6",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.3.6"
   }
 }

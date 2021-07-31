@@ -1,0 +1,26 @@
+.ss-checkbox-container {
+    display: flex;
+}
+
+.ss-checkbox-container-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+
+    height: 18px;
+    width: 18px;
+    background-color: #ffffff !important;
+    border: solid 2px #dddddd !important;;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 5px 0 0 !important;
+}
+
+.ss-checkbox-container-checkbox:checked {
+    background-image: url(https://s3-us-west-1.amazonaws.com/securspace-files/app-images/checkmark-20x20.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

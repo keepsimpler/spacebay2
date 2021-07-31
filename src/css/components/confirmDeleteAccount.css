@@ -1,0 +1,87 @@
+.ss-confirm-account-delete-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #777;
+    padding: 2rem;
+    min-width: 50rem;
+    max-width: 60rem;
+    min-height: 100px;
+    max-height: 300px;
+    opacity: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    z-index: 10000;
+}
+
+@media all and (min-width: 600px) and (min-height: 975px) {
+    .ss-confirm-account-delete-modal {
+        border-radius: 5px;
+    }
+}
+
+.ss-confirm-account-delete-modal-in  {
+    transition: opacity 0.5s ease-in;
+    opacity: 1
+}
+
+.ss-confirm-account-delete-modal-out {
+    transition: opacity 0.3s ease-out;
+    opacity: 0
+}
+
+.ss-confirm-account-delete-modal-backdrop {
+    background-color: black;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.ss-confirm-account-delete-modal-backdrop-in  {
+    transition: opacity 0.3s ease-in;
+    opacity: 0.5;
+}
+
+.ss-confirm-account-delete-modal-backdrop-out  {
+    transition: opacity 1.5s ease-out;
+    opacity: 0;
+}
+
+
+
+.ss-confirm-account-delete-warning-text {
+    color: red;
+
+    font-weight: 800;
+    font-size: 20px;
+    white-space: pre-wrap;
+}
+
+.ss-confirm-account-delete-title {
+
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.ss-confirm-account-delete-value {
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.ss-confirm-account-delete-button-container {
+    margin-top: 30px;
+}
+
+.ss-confirm-account-delete-button-container:hover {
+    cursor: pointer;
+}

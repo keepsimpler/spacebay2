@@ -1,0 +1,26 @@
+.modal-currency-field {
+    border: 1px solid #E1E1E1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.modal-currency-label {
+    margin: 16px 0 1px 25px;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #889296;
+}
+
+.modal-currency-input {
+    width: calc(100% - 50px);
+    margin: 8px 25px 13px 25px;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.24;
+    text-align: left;
+    color: #555555;
+    background-color: #FFFFFF;
+}

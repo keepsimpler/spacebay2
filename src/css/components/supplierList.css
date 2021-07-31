@@ -1,0 +1,141 @@
+.ss-supplier-list-items {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ss-supplier-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0px 7px;
+}
+
+.ss-supplier-list-subtitle {
+    padding: 0px 7px;
+}
+
+.ss-supplier-list-search-count {
+    color: #f09019;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0 7px 14px;
+}
+
+.ss-supplier-list-flex-item {
+    padding: 7px;
+}
+
+.need-help {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.need-help > div {
+    background: url("app-images/need-help.png");
+    padding: 10px 14px;
+    background-size: cover;
+}
+
+.need-help strong {
+    color: #51ABE1;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+}
+
+.need-help strong span {
+    color: #F09019;
+
+}
+
+@media all and (min-width: 1160px) {
+    #refineYourSearch {
+        position: relative;
+        width: 365px;
+        height: 56px;
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+        vertical-align: middle;
+        line-height: 56px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+        z-index: 3;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: left;
+        color: #999999;
+    }
+
+    #refineYourSearch:after {
+        content: url(https://s3-us-west-1.amazonaws.com/securspace-files/app-images/icon-search.svg);
+        z-index: 3;
+        position: absolute;
+        right: 24px;
+        top: 3px;
+    }
+}
+
+@media all and (max-width: 1159px) {
+    #refineYourSearch {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        right: 10px;
+        bottom: 15px;
+        padding-left: 20px;
+        vertical-align: middle;
+        line-height: 56px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+        z-index: 3;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: left;
+        color: #999999;
+    }
+
+    #refineYourSearch:after {
+        content: url(https://s3-us-west-1.amazonaws.com/securspace-files/app-images/icon-search.svg);
+        z-index: 3;
+        position: absolute;
+        right: 24px;
+        top: 3px;
+    }
+
+}
+
+@media all and (max-width: 1200px) {
+    .need-help {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .need-help {
+        padding: 0;
+        bottom:0;
+    }
+    .need-help >div{
+        background: #fff;
+    }
+
+}

@@ -1,0 +1,88 @@
+.add-payment-method-pill-group {
+    display: flex;
+    flex-flow: row;
+}
+
+.add-payment-method-modal-content {
+    padding: 24px 30px 33px 30px;
+}
+
+.add-payment-method-selection-info {
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.add-payment-method-select-type-header {
+    font-weight: 500;
+}
+
+.add-payment-method-cc-info {
+    padding-top: 10px;
+    color: #737373;
+    padding-bottom: 10px;
+}
+
+.add-payment-method-authorization-header {
+    font-size: 18px;
+}
+
+.add-payment-method-pill {
+    font-size: 15px;
+    width: 150px;
+    margin-top: 15px;
+    height: 30px;
+    font-weight: 700;
+    text-align: center;
+    background: white;
+    border: 1px solid #dddddd;
+    color: #555555;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-payment-method-pill:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.add-payment-method-pill:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.add-payment-method-pill:only-child {
+    border-radius: 5px;
+}
+
+.add-payment-method-pill.active {
+    background: #f79019;
+    border: 1px solid #f79019;
+    color: white;
+}
+
+.pay-with-ach-container {
+    padding-top: 30px;
+}
+
+.pay-with-ach-details-container {
+    padding-top: 30px;
+}
+
+.bank-account-details-container {
+    padding: 30px 50px;
+}
+
+.bank-account-details-header {
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.bank-account-details-footer {
+    margin-top: 30px;
+}
+
+.back-account-details-form-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

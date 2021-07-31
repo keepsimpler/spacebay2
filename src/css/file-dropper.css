@@ -1,0 +1,12 @@
+.file-dropper-container:hover {
+    cursor: pointer;
+}
+
+.file-dropper-camera-icon {
+    height: 37px;
+    width: 37px;
+}
+
+.file-dropper-dropzone-container {
+    display: none;
+}

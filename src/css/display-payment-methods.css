@@ -1,0 +1,12 @@
+.no-payment-methods-found-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.no-payment-methods-found-message {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}

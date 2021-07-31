@@ -1,0 +1,35 @@
+.account-confirmation-container {
+    padding: 30px 50px;
+}
+
+.account-confirmation-header {
+    padding: 30px 50px;
+    justify-content: center;
+}
+
+.account-confirmation-form {
+    padding: 30px 50px;
+}
+
+.account-confirmation-form-submit-btn {
+    padding-bottom: 30px;
+}
+
+.account-confirmation-form-welcome-text {
+    padding: 0 0 30px !important;
+    font-size: 16px;
+}
+
+.company-highlight {
+    font-weight: bold;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.agreement-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

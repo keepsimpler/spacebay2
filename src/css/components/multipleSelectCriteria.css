@@ -1,0 +1,77 @@
+.ss-done-btn{
+    margin:15px auto;
+    display: block;
+    border-radius: 35px !important;
+    font-size:12px !important;
+    background-color: #f79019;
+    text-align: center;
+    padding: 5px 15px;
+    color: #FFF;
+}
+@media all and (min-width: 1000px) {
+    .ss-multiple-select-criteria .ss-button-primary {
+        margin: 25px 0 0 25px;
+        height: 55px;
+        width: 310px;
+        display: block;
+    }
+
+    .ss-multiple-select-criteria .ss-button-secondary {
+        margin: 10px 0 0 25px;
+        height: 55px;
+        width: 310px;
+        display: block;
+    }
+}
+
+@media all and (max-width: 999px) {
+    .ss-multiple-select-criteria .ss-button-primary {
+        margin: 25px 20px 0 20px;
+        height: 55px;
+        width: calc(100% - 40px);
+        display: block;
+    }
+
+    .ss-multiple-select-criteria .ss-button-secondary {
+        margin: 10px 20px 0 20px;
+        height: 55px;
+        width: calc(100% - 40px);
+        display: block;
+    }
+}
+
+
+.ss-multiple-select-criteria {
+    margin-top: 23px;
+}
+
+.ss-multiple-select-criteria-title {
+    margin-left: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    color: #222222;
+}
+
+.ss-multiple-select-criteria .ss-form {
+    margin-top: 16px !important;
+}
+
+.ss-multiple-select-criteria label {
+    margin-top: 5px !important;
+}
+
+.ss-multiple-select-criteria-item {
+    font-size: 16px;
+    text-align: left;
+    color: #777777;
+}
+
+.ss-select-all-items {
+    margin: 21px 0 27px 0;
+    font-size: 13px;
+    text-align: center;
+    color: #999999;
+    cursor: pointer;
+    display: block;
+}

@@ -1,0 +1,23 @@
+@media all and (min-width: 1300px) {
+
+    .ss-main section p.ss-error {
+        color: #FF0000;
+    }
+
+}
+
+@media all and (min-width: 1000px) and (max-width: 1299px) {
+
+    .ss-main section p.ss-error {
+        color: #FF0000;
+    }
+
+}
+
+@media all and (max-width: 999px) {
+
+    .ss-main section p.ss-error {
+        color: #FF0000;
+    }
+
+}

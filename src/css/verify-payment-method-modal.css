@@ -1,0 +1,21 @@
+.verify-payment-method-details-list {
+    list-style-type: disc;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.deposit-one-field {
+    margin-top: 25px;
+}
+
+.verification-successful-header {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.verification-successful-details {
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}

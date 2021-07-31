@@ -1,0 +1,91 @@
+
+.ss-supplier-active-bookings-endlist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+    color: #5C6771;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+@media all and (max-width: 999px) {
+    .check-in-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid #777;
+        padding: 20px;
+        opacity: 0;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        z-index: 10000;
+    }
+
+    .hs-bookings-container > div {
+        padding: 0 30px;
+    }
+
+
+}
+@media all and (max-width: 600px) {
+    .hs-bookings-container > div {
+        padding: 0 5%;
+    }
+}
+@media all and (min-width: 1000px) {
+    .check-in-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid #777;
+        padding: 2rem;
+        max-width: 60rem;
+        /*min-height: 600px;*/
+        max-height: 800px;
+        opacity: 0;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        z-index: 10000;
+        border-radius: 5px;
+    }
+}
+
+.check-in-modal-in {
+    transition: opacity 0.5s ease-in;
+    opacity: 1
+}
+
+.check-in-modal-out {
+    transition: opacity 0.3s ease-out;
+    opacity: 0
+}
+
+.check-in-modal-backdrop {
+    background-color: black;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.check-in-modal-backdrop-in {
+    transition: opacity 0.3s ease-in;
+    opacity: 0.5;
+}
+
+.check-in-modal-backdrop-out {
+    transition: opacity 1.5s ease-out;
+    opacity: 0;
+}

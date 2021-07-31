@@ -1,0 +1,322 @@
+/*
+    ************ Block Form Styles ************
+ */
+
+/*
+    Heading Styles
+*/
+form.ss-form.ss-block fieldset + p.ss-summary,
+form.ss-form.ss-block p.help-block + p.ss-summary,
+form.ss-form.ss-block div.location-items-column + p.ss-summary {
+    padding-top: 60px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+form.ss-form.ss-block p.ss-summary + p.ss-details {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+/*
+    Fieldset Styles
+ */
+form.ss-form.ss-block fieldset {
+    border: 1px solid #E1E1E1;
+    border-radius: 3px;
+}
+
+form.ss-form.ss-block fieldset.ss-stand-alone {
+    margin-bottom: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+form.ss-form.ss-block fieldset.ss-top {
+    margin-top: 20px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+form.ss-form.ss-block fieldset.ss-top-right {
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+    border-radius: 0 5px 0 0;
+}
+
+form.ss-form.ss-block fieldset.ss-top-left {
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    border-radius: 5px 0 0 0;
+    border-left: none;
+}
+
+form.ss-form.ss-block fieldset.ss-middle {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-top: none;
+}
+
+form.ss-form.ss-block fieldset.ss-bottom {
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    border-top: none;
+}
+
+form.ss-form.ss-block fieldset.ss-bottom-left {
+    width: 50%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius: 0 0 0 5px;
+    -moz-border-radius: 0 0 0 5px;
+    border-radius: 0 0 0 5px;
+    border-top: none;
+}
+
+form.ss-form.ss-block fieldset.ss-bottom-right {
+    width: 50%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius: 0 0 5px 0;
+    -moz-border-radius: 0 0 5px 0;
+    border-radius: 0 0 5px 0;
+    border-top: none;
+    border-left: none;
+}
+
+form.ss-form.ss-block p.ss-summary + fieldset {
+    margin-top: 20px;
+}
+
+form.ss-form.ss-block fieldset.ss-bottom + fieldset.ss-top {
+    margin-top: 20px;
+}
+
+/*
+    Row Fieldset Styles
+ */
+form.ss-form.ss-block .ss-fieldset-row {
+    margin: 0;
+    display: initial;
+    width: 100%;
+    border: none !important;
+}
+
+form.ss-form.ss-block .ss-fieldset-row-inner-left {
+    margin-left: 0;
+    border: none;
+    display: inline-block;
+}
+
+form.ss-form.ss-block .ss-fieldset-row-inner-middle {
+    border: none;
+    display: inline-block;
+}
+
+form.ss-form.ss-block .ss-fieldset-row-inner-right {
+    border: none;
+    display: inline-block;
+}
+
+/*
+    Label and Input Styles
+ */
+form.ss-form.ss-block label {
+    margin: 16px 0 1px 25px;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #889296;
+}
+
+form.ss-form.ss-block label.ss-checkbox {
+    margin-top: 31px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+form.ss-form.ss-block label.ss-checkbox + label.ss-checkbox {
+    margin-top: 2px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+form.ss-form.ss-block fieldset.ss-fieldset-row-inner-right label.ss-inline-end-date-label {
+    margin-left: 18px !important;
+}
+
+form.ss-form.ss-block fieldset + div.ss-success,
+form.ss-form.ss-block fieldset + div.ss-error,
+form.ss-form.ss-block label + div.ss-success,
+form.ss-form.ss-block label + div.ss-error,
+form.ss-form.ss-block p + div.ss-success,
+form.ss-form.ss-block p + div.ss-error {
+    margin-top: 40px;
+}
+
+form.ss-form.ss-block textarea {
+    height: 87px;
+
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    color: #313c41;
+}
+
+form.ss-form.ss-block textarea::placeholder {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    color: #6d6d6d;
+    background-color: #FFFFFF !important;
+}
+
+/*
+    Row Label and Input Styles
+ */
+
+
+form.ss-form.ss-block input::placeholder {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    color: #6d6d6d;
+    background-color: #FFFFFF !important;
+}
+
+form.ss-form.ss-block .ss-fieldset-row-inner-middle label,
+form.ss-form.ss-block .ss-fieldset-row-inner-middle input {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+form.ss-form.ss-block .ss-fieldset-row-inner-left label,
+form.ss-form.ss-block .ss-fieldset-row-inner-left input {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.ss-fieldset-row-inner-left input {
+    width: 100%;
+}
+
+.ss-fieldset-row-inner-middle input {
+    width: 100%;
+}
+
+form.ss-form.ss-block fieldset.ss-fieldset-row-inner-left input.ss-inline-start-date {
+    width: 90px;
+    margin-right: 13px;
+}
+
+form.ss-form.ss-block fieldset.ss-fieldset-row-inner-right input.ss-inline-end-date {
+    width: 105px;
+    margin-right: 30px;
+    margin-left: 18px !important;
+}
+
+form.ss-form.ss-block fieldset.ss-fieldset-row-inner-right input.ss-inline-number-of-iterations {
+    width: 151px;
+    margin-right: 30px;
+    margin-left: 18px !important;
+}
+
+/*
+    Button Styles
+*/
+form.ss-form.ss-block .ss-button-container {
+    margin-bottom: 125px;
+    margin-left: 0;
+    padding: 0;
+}
+
+form.ss-form.ss-block fieldset + .ss-button-container {
+    margin-top: 40px;
+}
+
+form.ss-form.ss-block label + .ss-button-container,
+form.ss-form.ss-block p + .ss-button-container {
+    margin-top: 26px;
+}
+
+form.ss-form.ss-block div.ss-success + .ss-button-container,
+form.ss-form.ss-block div.ss-error + .ss-button-container {
+    margin-top: 10px;
+}
+
+form.ss-form.ss-block .ss-button-container {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+/*
+    Visibility Styles
+ */
+
+div.ss-display-hidden {
+    display: none;
+}
+
+form.ss-form.ss-block fieldset.ss-file-chooser {
+    position: relative;
+    border: 1px solid #E1E1E1;
+    border-radius: 21px;
+    background-color: #F6F6F6;
+    padding: 5px;
+    width: 100%;
+    display: table;
+}
+
+form.ss-form.ss-block fieldset.ss-file-chooser label {
+    margin: 0;
+    cursor: pointer;
+    border-radius: 21px;
+    background-color: #4F575A;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 20px;
+    display: table-cell;
+}
+
+form.ss-form.ss-block fieldset.ss-file-chooser > input[type="file"] {
+    display: none;
+}
+
+form.ss-form.ss-block fieldset.ss-file-chooser + fieldset.ss-bottom {
+    border: none;
+}
+
+form.ss-form.ss-block fieldset.ss-file-chooser > span {
+    color: #5C6771;
+    font-size: 13px;
+    text-align: left;
+    display: table-cell;
+    padding: 0 20px;
+}
+
+form.ss-form.ss-block fieldset.ss-file-chooser + fieldset.ss-bottom > img {
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+form.ss-form.ss-block fieldset.ss-file-chooser + fieldset.ss-link-preview {
+    border: none;
+    margin-top: 10px;
+}
+
+form.ss-form.ss-block fieldset.ss-file-chooser + fieldset.ss-link-preview a {
+    color: #5C6771;
+    font-size: 13px;
+    font-weight: bold;
+}

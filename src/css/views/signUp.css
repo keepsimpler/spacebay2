@@ -1,0 +1,31 @@
+.signup-button-container {
+    width: 100%;
+}
+.signup-terms {
+    text-align: left;
+    margin-left: 5px;
+    color: #5C6771;
+    font-size: 16px;
+    font-weight: 500;
+}
+.signup-terms a,
+.signup-terms span.pointer{
+    color: #5C6771;
+    font-weight: bold;
+}
+
+.signup-account-type-selector {
+    margin-bottom: 15px;
+    width: 100%;
+    color: #5D6B7A;
+    font-weight: 500;
+}
+
+fieldset .meter{
+    width:50%;
+    float:left;
+}
+
+.social-login-separator{
+    padding-bottom:10px;
+}

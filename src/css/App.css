@@ -1,0 +1,592 @@
+#ssApp {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: column;
+}
+
+#ssSimplifiedCustomerApp {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+    -webkit-overflow-scrolling: touch;
+}
+
+#ssApp > div {
+    padding: 0 90px;
+    width: 100%;
+    float: left;
+}
+
+#appNav > div {
+    position: relative;
+    float: left;
+    width: 100%;
+    /*border-bottom: 1px solid #E7E7E7;*/
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+#appNav + div {
+    padding: 0;
+    flex:1;
+}
+
+.search #appNav + div {
+    padding: 20px 0 0;
+}
+
+
+
+.landing #appNav > div {
+    border: 0;
+}
+
+#navMenuContainer {
+    margin-left: auto;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.popup-header {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-bottom: 1.2px solid #EFEBEB;
+}
+
+.popup-header img {
+    height: 26px;
+    padding-right: 11px;
+}
+
+.popup-header .close img {
+    height: auto;
+    padding: 0;
+}
+
+.popup-header a img ,
+.popup-header span.pointer img {
+    padding-right: 0;
+}
+
+.popup-header a,
+.popup-header span.pointer{
+    display: block;
+    margin-left: auto;
+}
+
+.popup-header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top:0;
+}
+
+.orange-button {
+    padding: 8px 30px;
+    border-radius: 17px;
+    background-color: #f79019;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .3px;
+    border: 1px solid #f79019;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.orange-button:hover{
+    color: #f79019;
+    background-color: #FFFFFF;
+}
+
+.ss-nav-menu-item-highlighted{
+    border: 1px solid #f79019;
+}
+
+.ss-nav-menu-item-highlighted:hover{
+    color: #f79019!important;
+    background-color: #FFFFFF;
+    border-bottom-width: 1px !important;
+}
+.ss-action-button {
+    width: 100%;
+}
+
+.app-modal-in > div > div > div,
+.app-modal-in > div > div > form {
+    padding: 30px 50px;
+}
+
+.app-modal {
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 44px 0 rgba(0, 0, 0, 0.04);
+}
+
+.hs-bookings-container {
+    width: 100%;
+    float: left;
+}
+
+.hs-bookings-container > div {
+    padding: 0 90px;
+}
+
+.hs-bookings-container > div .breadcrumb {
+    padding: 20px 0 7px 0;
+    color: #5C6771;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-bottom: 0;
+}
+
+.hs-bookings-container > div .breadcrumb > li + li:before {
+    color: #5C6771;
+    content: '\2192';
+}
+
+.hs-bookings-container > div .content-header-title {
+    text-align: left;
+    padding-top: 0;
+}
+
+.hs-bookings-container > div h2 {
+    color: #7C8793;
+    font-size: 14px;
+    padding: 20px 0;
+    font-weight: bold;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+button.close > img {
+    max-width: 30px;
+}
+
+.unselectable {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(47, 47, 47, 0.5);
+    z-index: 10000;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.unselectable .popup-header {
+    padding: 30px 50px;
+}
+
+.unselectable .popup-header .close {
+    margin-left: auto;
+    opacity: 1;
+}
+
+.unselectable form .modal-body {
+    padding: 30px 50px;
+}
+
+.container.report-label {
+    padding-right: 0;
+    /*padding-left: 0;*/
+}
+
+@media all and (min-width: 1000px) {
+
+    #toggleMenuIcon {
+        display: none;
+    }
+
+    #navLogoTrans {
+        margin: 20px auto;
+        height: 50px;
+    }
+}
+
+.app-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    min-width: 20rem;
+    max-width: 600px;
+    max-height: 90%;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 44px 0 rgba(0, 0, 0, 0.04);
+}
+.ss-main{
+    min-height:70vh;
+}
+
+.app-modal.modal-page{
+height:100%;
+}
+
+.app-modal #page-content{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+
+.app-modal #page-content{
+    overflow-y: auto !important;
+    overflow-x: hidden;
+}
+.app-modal #page-content .pointer.for-close{
+    top:20px;
+    right:20px;
+    position: fixed;
+    background: #ffffff;
+    z-index: 999;
+    padding: 0;
+}
+.app-modal.large {
+    min-width: 50rem;
+}
+
+.app-modal.modal-page {
+    min-width: 70%;
+}
+
+.app-modal-in {
+    transition: opacity 0.5s ease-in;
+    opacity: 1
+}
+
+.app-modal-out {
+    transition: opacity 0.3s ease-out;
+    opacity: 0
+}
+
+.app-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #979797;
+    background-color: #383838;
+}
+
+.app-backdrop-in {
+    transition: opacity 0.3s ease-in;
+    opacity: 0.57;
+}
+
+.app-backdrop-out {
+    transition: opacity 1.5s ease-out;
+    opacity: 0;
+}
+
+.modal-page .about-header{
+margin-top:20px;
+}
+.modal-page .container{
+    max-width:95%;
+}
+.modal-page footer{
+    display: none;
+}
+
+.modal-page .for-close {
+    padding: 20px;
+}
+.modal-page .for-close img{
+    height: 26px;
+    padding-right: 11px;
+    float: right;
+}
+
+
+
+
+@media all and (max-width: 999px) {
+    #toggleMenuIcon {
+        height: 30px;
+        width: 30px;
+        /*background-image: url(https://s3-us-west-1.amazonaws.com/securspace-files/app-images/icon-hamburguer.svg);*/
+        background-image: url('../app-images/menu_icon_black.svg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-color: rgba(0, 0, 0, 0.02);
+        cursor: pointer;
+    }
+    #appNav{
+        padding: 0 !important;
+    }
+
+    #navLogoTrans {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+    #navLogoContainer {
+        margin-left: auto;
+        margin-right: auto;
+        order: 1;
+    }
+
+    #navMenuContainer {
+        margin-right: inherit;
+        position:absolute;
+        right:5px;
+    }
+
+    .login-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid #777;
+        padding: 2rem;
+        opacity: 0;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .reset-password-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid #777;
+        padding: 2rem;
+        opacity: 0;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .sign-up-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid #777;
+        padding: 2rem;
+        opacity: 0;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+}
+
+@media all and (min-width: 600px) and (min-height: 975px) {
+    .sign-up-modal {
+        border-radius: 5px;
+    }
+
+    .login-modal {
+        border-radius: 5px;
+    }
+
+    .reset-password-modal {
+        border-radius: 5px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #appNav + div {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #ssApp > div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .app-modal {
+        max-width: 90%;
+    }
+
+    .app-modal-in > div > div > div,
+    .app-modal-in > div > div > form {
+        padding: 30px 15px;
+    }
+
+    .search #appNav + div {
+        padding: 20px 5%;
+        margin-bottom: 50px;
+    }
+
+    .search #appNav {
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .modal-body tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-content form .table.text-center .ss-button-primary,
+    .modal-content form .table.text-center .ss-button-secondary {
+        margin: 5px;
+    }
+
+    .sm-overflow {
+        overflow: auto;
+    }
+
+    .sm-overflow::-webkit-scrollbar {
+        display: none;
+        height: 10px;
+    }
+
+}
+
+.dtable {
+    display: table !important;
+}
+
+.small-screen {
+    display: none;
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@media all and (max-width: 999px) {
+    .small-screen {
+        display: block;
+    }
+}
+
+.logged-in-as-info {
+    width: 300px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #d74747;
+    z-index: 9999;
+}
+
+.logged-in-as-label {
+    font-weight: 400 !important;
+    margin-right: 15px;
+}
+
+.logged-in-as-info button {
+    padding: 0 10px;
+    margin: 0 0 0 20px;
+    height: 30px;
+    line-height: 1;
+}
+
+.cameraIcon {
+    float: right;
+    height: 5%;
+    width: 5%;
+    margin: 5px 5px;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.background-white{
+    background: #FFFFFF;
+}
+
+.payout-class{
+    float: right;
+    margin-left: auto
+}
+
+.account-font-size {
+    font-size: 14px;
+}
+
+.dates-fieldset{
+    padding: 10px 10px 0 10px;
+    border: none;
+    border-bottom: solid 1px #dddddd;
+    display: flex;
+}
+.intiate-payout{
+    width: 90%
+}

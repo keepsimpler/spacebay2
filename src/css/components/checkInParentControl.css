@@ -1,0 +1,73 @@
+.ss-check-in-parent-container {
+    width: 100%;
+}
+
+.ss-check-in-button-container {
+    padding: 20px;
+    width: 100%;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+
+.ss-dialog-button {
+    width: calc(50% - 30px);
+    padding: 10px 0;
+    max-width:200px;
+    float:left;
+    white-space: nowrap;
+}
+
+button + .ss-dialog-button {
+    margin-left: 60px;
+}
+.ss-check-in-button-container button + .ss-dialog-button {
+    float:right;
+}
+
+.check-in-modal-in button.close{
+    margin-left:auto;
+    opacity: 1;
+}
+.check-in-modal-in .popup-header{
+    padding: 20px 50px;
+}
+
+.ss-check-in-parent-container{
+    padding:30px 50px;
+}
+
+.check-in-modal-in.no-padding{
+    padding: 0;
+}
+
+.checkin-selector{
+    margin-top: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.checkin-selector .ss-select-options-visible{
+    left:0;
+    width:100%;
+}
+@media all and (max-width: 800px) {
+    .check-in-modal-in .popup-header{
+        padding: 15px;
+    }
+    .ss-check-in-parent-container{
+        padding:15px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    .ss-dialog-button {
+        width: calc(50% - 10px);
+        max-width:inherit;
+    }
+
+    button + .ss-dialog-button {
+        margin-left: 10px;
+    }
+
+}

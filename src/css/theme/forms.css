@@ -1,0 +1,288 @@
+/*
+    ************ Common Form Styles ************
+ */
+
+input:disabled,.disabled {
+    opacity: 0.5;
+}
+@media all and (min-width: 1000px) {
+
+    form.ss-form {
+        background-color: #ffffff;
+        text-align: left;
+    }
+
+    form.ss-form label {
+        margin: 25px 0 0 25px;
+        padding: 0;
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.24;
+        text-align: left;
+        color: #999999;
+    }
+
+    /*
+        This is the label for a checkbox
+     */
+    form.ss-form input[type="checkbox"] + span {
+        position: relative;
+        bottom: 4px;
+    }
+
+    form.ss-form input[type="checkbox"] + span > a {
+        margin-left: 4px;
+    }
+
+    form.ss-form label.ss-agree {
+        margin: 25px 0 0 25px;
+        padding: 0;
+        display: inline;
+        font-size: 16px;
+        letter-spacing: normal;
+        line-height: 1;
+        font-weight: 500;
+        color: #555555;
+        text-align: left;
+    }
+
+    form.ss-form label.ss-option {
+        margin: 25px 0 0 25px;
+        padding: 0;
+        display: block;
+        font-size: 16px;
+        letter-spacing: normal;
+        line-height: 1;
+        font-weight: 400;
+        color: #777777;
+        text-align: left;
+    }
+
+    form.ss-form input {
+        width: calc(100% - 50px);
+        margin: 8px 25px 13px 25px;
+        padding: 0;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.24;
+        text-align: left;
+        color: #555555;
+        background-color: #FFFFFF !important;
+    }
+
+    form.ss-form input[type="checkbox"] {
+        margin: 0 10px 0 0;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+
+        height: 18px;
+        width: 18px;
+        background-color: #ffffff !important;
+        border: solid 2px #dddddd !important;;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    form.ss-form input[type="checkbox"]:checked {
+        background-image: url(https://s3-us-west-1.amazonaws.com/securspace-files/app-images/checkmark-20x20.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    form.ss-form input::placeholder {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        color: #555555;
+        background-color: #FFFFFF !important;
+    }
+
+    form.ss-form textarea {
+        width: 90%;
+        margin: 8px 0 13px 25px;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        color: #555555;
+        background-color: #FFFFFF !important;
+        resize: none;
+        border: none;
+    }
+
+    form.ss-form textarea::placeholder {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        color: #555555;
+        background-color: #FFFFFF !important;
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+        -webkit-text-fill-color: #555555;
+        -webkit-box-shadow: 0 0 0 1000px #FFFFFF inset;
+    }
+
+}
+
+@media all and (max-width: 999px) {
+    form.ss-form {
+        background-color: #ffffff;
+        text-align: left;
+    }
+
+    form.ss-form label {
+        margin: 25px 0 0 25px;
+        padding: 0;
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1;
+        text-align: left;
+        color: #999999;
+    }
+
+    form.ss-form label.ss-checkbox {
+        margin-top: 31px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    form.ss-form label.ss-checkbox + label.ss-checkbox {
+        margin-top: 2px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    /*
+        This is the label for a checkbox
+     */
+    form.ss-form input[type="checkbox"] + span {
+        position: relative;
+        bottom: 4px;
+    }
+
+    form.ss-form input[type="checkbox"] + span > a {
+        margin-left: 4px;
+    }
+
+    form.ss-form label.ss-agree {
+        margin: 25px 0 0 25px;
+        padding: 0;
+        display: inline;
+        font-size: 16px;
+        letter-spacing: normal;
+        line-height: 1;
+        font-weight: 500;
+        color: #555555;
+        text-align: left;
+    }
+
+    form.ss-form label.ss-option {
+        margin: 25px 0 0 25px;
+        padding: 0;
+        display: block;
+        font-size: 16px;
+        letter-spacing: normal;
+        line-height: 1;
+        font-weight: 400;
+        color: #777777;
+        text-align: left;
+    }
+
+    form.ss-form input {
+        width: calc(100% - 50px);
+        margin: 8px 25px 8px 25px;
+        padding: 0;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1;
+        text-align: left;
+        color: #555555;
+        background-color: #FFFFFF !important;
+    }
+
+    form.ss-form input[type="checkbox"] {
+        margin: 0 10px 0 0;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+
+        height: 18px;
+        width: 18px;
+        background-color: #ffffff !important;
+        border: solid 2px #dddddd !important;;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    form.ss-form input[type="checkbox"]:checked {
+        background-image: url(https://s3-us-west-1.amazonaws.com/securspace-files/app-images/checkmark-20x20.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    form.ss-form input::placeholder {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        color: #555555;
+        background-color: #FFFFFF !important;
+    }
+
+    form.ss-form textarea {
+        width: 90%;
+        margin: 8px 0 13px 25px;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.24;
+        text-align: left;
+        color: #555555;
+        background-color: #FFFFFF !important;
+        resize: none;
+        border: none;
+    }
+
+    form.ss-form textarea::placeholder {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        color: #555555;
+        background-color: #FFFFFF !important;
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+        -webkit-text-fill-color: #555555;
+        -webkit-box-shadow: 0 0 0 1000px #FFFFFF inset;
+    }
+
+}

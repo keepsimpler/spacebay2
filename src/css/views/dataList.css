@@ -1,0 +1,115 @@
+.report-form {
+    display: flex;
+}
+
+.report-form .search-container {
+    flex: 1;
+    max-width: 100%;
+}
+
+.data-list-filter-container.search-container .ss-fieldset-row-inner-middle {
+    margin-left:auto;
+}
+fieldset fieldset.ss-fieldset-row-inner-left label {
+    color: #5D6B7A;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.data-list-filter-container.search-container {
+    margin: 20px 20px 20px 0;
+}
+
+.data-list-filter-container.search-container:last-child {
+    margin-right: 0;
+}
+
+.ss-stand-alone.data-list-filter-container.search-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.ss-stand-alone.data-list-filter-container.search-container fieldset {
+    width: 50%;
+    float: left;
+}
+
+.search-container fieldset .ss-select input {
+    margin-left: 0;
+    padding-top: 10px;
+    color: #324559;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0;
+}
+
+.search-container fieldset .ss-select:before {
+    content: "\f078";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    right: 12px;
+    top: 6px;
+}
+
+@media all and (min-width: 1000px) {
+
+    .data-list-search-style {
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 0;
+        width: 100%;
+        border-width: 8px;
+    }
+
+    .data-list-filter-container {
+        width: 400px;
+    }
+
+}
+
+@media all and (max-width: 1200px) {
+    .report-form{
+        flex-direction: column;
+    }
+
+    .search-container fieldset .ss-select{
+        max-width:200px;
+    }
+}
+
+@media all and (max-width: 999px) {
+
+
+    .data-list-search-style {
+        padding: 5px;
+        margin-top: 40px;
+        margin-bottom: 0;
+        width: 100%;
+        border-width: 8px;
+    }
+
+    .data-list-filter-container {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .search-container fieldset .ss-select{
+        max-width:100%;
+    }
+    .ss-stand-alone.data-list-filter-container.search-container{
+        flex-direction: column;
+    }
+    .ss-stand-alone.data-list-filter-container.search-container fieldset{
+        width:100%;
+    }
+    .data-list-filter-container.search-container .ss-fieldset-row-inner-middle{
+        margin-left:0;
+    }
+}

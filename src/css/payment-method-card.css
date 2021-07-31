@@ -1,0 +1,47 @@
+.payment-method-card {
+    display: flex;
+    border: 1px solid #E7E7E7;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 6px 13px;
+}
+
+.payment-method-detail {
+    padding: 6px;
+    width: 170px;
+}
+
+.payment-method-detail-label {
+    color: #5D6B7A;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.payment-method-detail-value {
+    overflow: hidden;
+    color: #324559;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: pre-wrap;
+}
+
+.payment-method-verification {
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.payment-method-verify-btn {
+    width: 100px;
+}
+
+.payment-method-options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}

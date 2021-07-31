@@ -1,0 +1,30 @@
+.partner-details-field {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #E1E1E1;
+    margin: 0 20px 10px;
+    border-radius: 5px;
+}
+
+.partner-details-field-label {
+    margin: 16px 0 1px 25px;
+    font-size: 13px;
+    color: #889296;
+}
+
+.partner-details-field-input-container {
+    font-size: 16px;
+    color: #555555;
+    font-weight: 500;
+    margin: 16px 0 1px 25px;
+}
+
+.partner-details-field-input {
+    width: 100%;
+    border: none;
+    padding-bottom: 10px;
+}
+
+.decreased-opacity {
+    opacity: 0.80;
+}

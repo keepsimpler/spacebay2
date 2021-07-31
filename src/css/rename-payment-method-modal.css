@@ -1,0 +1,9 @@
+.rename-payment-method-prompt-text {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rename-payment-method-error {
+    text-align: center;
+}

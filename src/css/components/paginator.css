@@ -1,0 +1,17 @@
+.paginator{
+    display:table;
+    margin:20px auto;
+}
+.paginator li{
+    display:inline-block;
+    margin:2px;
+    cursor:pointer;
+    border: 2px solid #231f20;
+    padding: .2em .8em .3em .8em;
+    color: #231f20;
+    text-align: center;
+}
+
+.paginator li.current{
+    border-color:#f79019;
+}

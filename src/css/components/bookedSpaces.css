@@ -1,0 +1,70 @@
+.ss-booked-spaces-title {
+    text-align: center;
+    width: 100%;
+}
+
+.ss-booked-spaces-title h1 {
+    font-weight: bold;
+}
+
+.ss-booked-spaces-search-container {
+    border-width: 8px;
+    display: flex;
+    justify-content: center;
+}
+.ss-booked-spaces-modal-width form{
+    padding:30px;
+}
+
+@media all and (min-width: 1000px) {
+
+    .ss-booked-spaces-modal-width {
+        width: 600px;
+    }
+
+    .ss-booked-spaces-search-form {
+        width: 600px;
+    }
+
+}
+
+@media all and (max-width: 999px) {
+    .ss-booked-spaces-search-form {
+        width: 360px;
+    }
+
+    .ss-booked-spaces-modal-width {
+        width: 360px;
+    }
+
+
+}
+
+.add-payment-method-link {
+    cursor: pointer;
+    color: #337ab7;
+    font-size: 14px;
+    line-height: 35px;
+    margin-left: 55px;
+}
+
+.add-payment-method-link:hover {
+    text-decoration: underline;
+    color: #23527c;
+}
+
+.payment-update-success-description-list {
+    list-style: disc;
+}
+
+.active-bookings-header {
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.inactive-bookings-header {
+    padding-top: 5px;
+    font-weight: 700;
+    font-size: 22px;
+}

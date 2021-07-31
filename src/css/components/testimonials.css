@@ -1,0 +1,93 @@
+.testimonials-slider {
+    width: 50%;
+    margin: 70px auto;
+}
+
+.testimonials-slider .testimonials-title {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    color: #27A9DF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.testimonials-slider .testimonials-content {
+    width: 100%;
+    color: #5C6771;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.testimonials-slider .bx-wrapper .bx-controls-direction a {
+    top: 4px;
+}
+
+.testimonials-slider .bx-wrapper .bx-prev {
+    left: 5%;
+    background-image: url("app-images/slider/arrow_left.png");
+    background-size: 50%;
+    background-position: 50%;
+}
+
+.testimonials-slider .bx-wrapper .bx-next {
+    right: 5%;
+    background-image: url("app-images/slider/arrow_right.png");
+    background-size: 50%;
+    background-position: 50%;
+}
+
+.testimonials-slider .bx-wrapper .bx-prev:focus,
+.testimonials-slider .bx-wrapper .bx-prev:hover {
+    background-position: 50%;
+}
+
+.testimonials-slider .bx-wrapper .bx-next:focus,
+.testimonials-slider .bx-wrapper .bx-next:hover {
+    background-position: 50%;
+}
+
+.testimonials-slider .bx-wrapper .bx-pager.bx-default-pager a {
+    height: 6px;
+    width: 6px;
+    background-color: #E6E6E6;
+}
+
+.testimonials-slider .bx-wrapper .bx-pager.bx-default-pager a.active,
+.testimonials-slider.bx-wrapper .bx-pager.bx-default-pager a:focus,
+.testimonials-slider.bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background-color: #27A9DF;
+}
+
+.testimonials-slider .bx-wrapper .bx-controls-auto,
+.testimonials-slider .bx-wrapper .bx-pager {
+    bottom: 0;
+}
+
+@media all and (max-width: 999px) {
+    .testimonials-slider .bx-wrapper .bx-prev {
+        left: 20px;
+    }
+
+    .testimonials-slider .bx-wrapper .bx-next {
+        right: 20px;
+    }
+}
+
+@media all and (max-width: 760px) {
+    .testimonials-slider {
+        width: 90%;
+    }
+    .testimonials-slider .bx-wrapper .bx-prev {
+        left: 0;
+    }
+
+    .testimonials-slider .bx-wrapper .bx-next {
+        right: 0;
+    }
+}
+

@@ -1,0 +1,284 @@
+.how_it_works .container {
+    padding: 50px 0 70px 0;
+}
+
+.how_it_works .container > .w100 {
+    background: #fff;
+    margin: 15px 0;
+    float: left;
+    display: flex;
+}
+
+.how_it_works .for-start {
+    position: relative;
+}
+
+.how_it_works .for-start > div {
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.how_it_works .for-start > div span {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 0 6px 0;
+    display: block;
+
+}
+
+.how_it_works .for-start > div span.pointer {
+    border-radius: 19px;
+    background-color: #FFFFFF;
+    color: #5C6771;
+    text-align: center;
+    padding: 10px 25px;
+    display:table;
+    line-height: 14px;
+}
+.how_it_works .for-start > div span.pointer:hover{
+    opacity:.9;
+    box-shadow:4px 14px 25px rgba(0,0,0,.25);
+}
+.how_it_works .for-start > div span h2 {
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.how_it_works .for-start > div a {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 19px;
+    background: #fff;
+    color: #5C6771;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.how_it_works .wizard {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.how_it_works .wizard ul {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+
+.how_it_works .wizard ul li {
+    color: #7C848D;
+    position: relative;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.how_it_works .wizard ul li:after {
+    content: "\2192";
+    padding: 0 30px 0 0;
+    float: left;
+}
+
+.how_it_works .wizard ul li h4 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    float: left;
+    height: 100%;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.how_it_works .wizard ul li:last-child:after {
+    display: none;
+}
+
+.how_it_works .wizard ul li.active h4 {
+    color: #4DAAE1;
+    border-bottom: 2px solid #4DAAE1;
+}
+
+.how_it_works .wizard > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 20px 120px 20px 100px;
+    position: relative;
+}
+
+.how-it-works-scroll-button {
+    border: 0;
+    background: transparent;
+    min-width: 70px;
+    text-align: center;
+    color: #5C6771;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+    position: absolute;
+    right: 10px;
+}
+
+.how-it-works-scroll-text-container {
+    padding: 0 30px;
+}
+
+.how-it-works-scroll-btn-image {
+    padding-bottom: 8px;
+}
+
+.prevBtn {
+    margin-right: 30px;
+    left: 10px;
+}
+
+.prevBtn img {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari prior 9.0 */
+    transform: rotate(180deg); /* Standard syntax */
+}
+
+.wizard > div .prevBtn + img {
+    width: 136px;
+}
+
+.for-partner .wizard > div .prevBtn + img {
+    margin-right: 50px;
+    width: 86px;
+}
+
+.how_it_works .wizard > div.for-scroll {
+    overflow: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: block;
+    border-bottom: 2px solid #EFEBEB;
+    height: 80px;
+    padding-left: 10px;
+
+}
+
+.how_it_works .wizard > div.for-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+@media all and (max-width: 1000px) {
+    .how_it_works .container {
+        padding: 0 30px;
+    }
+
+    .how_it_works .container > .w100 {
+        display: block;
+
+    }
+    .how_it_works .for-start > div span.pointer{
+        margin-left:auto;
+    }
+    .how_it_works .wizard > div.for-scroll {
+        height: 50px;
+    }
+
+    .how_it_works .for-start {
+        border-radius: 0 0 36px 0;
+        background-color: #4DAAE1;
+    }
+
+    .how_it_works .for-partner .for-start {
+        background-color: #F09019;
+    }
+
+    .how_it_works .for-start > div {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .how_it_works .for-start img {
+        display: none;
+    }
+
+    .how_it_works .for-start > div span {
+        display: inline-block;
+        padding: 0 20px;
+    }
+
+    .how_it_works .for-start > div a {
+        margin-left: auto;
+        padding: 5px 10px;
+    }
+
+    .how_it_works .wizard {
+        margin: 0 auto;
+
+    }
+
+    .how_it_works .wizard > div:nth-child(2) {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .how_it_works #ssApp .wizard span {
+        padding: 20px;
+        min-height: 100px;
+    }
+
+    .how_it_works #ssApp .wizard ul li span {
+        padding: 0 30px;
+        min-height: inherit;
+    }
+
+    .how_it_works .wizard ul {
+        width: 900px;
+    }
+
+    .wizard > div .prevBtn + img {
+        width: auto;
+        margin: auto;
+        height: 56px;
+    }
+
+    .for-partner .wizard > div .prevBtn + img {
+        width: auto;
+        margin: auto;
+        height: 56px;
+    }
+
+    .how_it_works #ssApp .wizard button.prevBtn img {
+        margin-bottom: 8px;
+        margin-top: -10px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .how_it_works .wizard > div.for-scroll {
+        height: 60px;
+    }
+
+    .how_it_works #ssApp .wizard span {
+        padding: 15px 0;
+    }
+    .how_it_works .for-start > div{
+        padding:20px 5px 20px 0;
+    }
+    .how_it_works .for-start > div span.pointer{
+        padding: 10px;
+    }
+    .how_it_works .for-start > div span{
+        padding:0 10px;
+    }
+}

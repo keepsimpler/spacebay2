@@ -1,0 +1,63 @@
+@media all and (min-width: 1000px) {
+
+    #ssAdminReports.ss-main > header {
+        height: 300px;
+        background-color: #28b8f6;
+    }
+
+    #ssAdminReports.ss-main > header > h1 {
+        position: relative;
+        top: 77px;
+    }
+
+    #ssAdminReports.ss-main > header > h3 {
+        position: relative;
+        top: 100px;
+    }
+
+    #ssAdminReports.ss-main > section {
+        width: 970px;
+        height: 835px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media all and (max-width: 999px) {
+    #ssAdminReports.ss-main > header {
+        height: 180px;
+        background-color: #28b8f6;
+    }
+
+    #ssAdminReports.ss-main > header > h1 {
+        position: relative;
+        top: 30px;
+    }
+
+    #ssAdminReports.ss-main > header > h3 {
+        position: relative;
+        top: 44px;
+    }
+
+    #ssAdminReports.ss-main > section {
+        height: 1460px;
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+}
+
+#ssReportCriteriaPanel {
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#startDate {
+    width: 110px;
+}
+
+#ssReportCriteriaPanel #datesFieldset > .ss-fieldset-row-inner-left {
+    margin: 0 0 1px 25px;
+    padding: 0;
+}

@@ -1,0 +1,66 @@
+@media all and (min-width: 1000px) {
+    .ss-dialog {
+        position: relative;
+        top: 40px;
+        margin: 0 auto 40px auto;
+        padding: 0 20px;
+        background-color: #ffffff;
+        z-index: 9998;
+        border: 1px solid #dddddd;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .ss-edit-inventory-dialog {
+        height: 920px;
+        width: 600px;
+    }
+
+    .ss-check-out-dialog {
+        height: 830px;
+        width: 600px;
+    }
+
+    .ss-move-inventory-dialog {
+        height: 1000px;
+        width: 600px;
+    }
+
+    .ss-edit-interchange-dialog {
+        height: 1000px;
+        width: 600px;
+    }
+}
+@media all and (max-width: 999px) {
+    .ss-dialog {
+        position: relative;
+        padding: 0 10px 20px 10px;
+        height: 100%;
+        width: 100%;
+        background-color: #ffffff;
+        z-index: 9998;
+        border: 1px solid #dddddd;
+        overflow-x: hidden;
+    }
+}
+
+.ss-modal-background {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(47, 47, 47, 0.5);
+    z-index: 9997;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.ss-modal-close-img {
+    position: relative; /*This allows the X to be clicked easier*/
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+    z-index: 9998;
+}
